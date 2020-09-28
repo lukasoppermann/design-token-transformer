@@ -5,8 +5,10 @@ It transforms the exported design tokens using [Amazon style directory](https://
 
 ## Installation
 ### 1. Download or clone the repo to your computer
+You can [download this package](https://github.com/lukasoppermann/design-token-transformer.git) or clone it via teh terminal.
+
 ``` Bash
-git clone
+git clone https://github.com/lukasoppermann/design-token-transformer.git
 ```
 ### 2. Install dependencies
 1. From within the terminal `cd` (navigate) this folder.
