@@ -25,6 +25,16 @@
         "format": "css/variables"
       }]
     },
+    "json-flat": {
+      "transformGroup": "js",
+      "buildPath": "build/json/",
+      "files": [
+        {
+          "destination": "styles.json",
+          "format": "json/flat"
+        }
+      ]
+    },
     "ios": {
       "transformGroup": "ios",
       "buildPath": "build/ios/",
