@@ -22,3 +22,8 @@ git clone https://github.com/lukasoppermann/design-token-transformer.git
 
 ## Customization
 To customize the output please view the [Amazon style directory documentation](https://amzn.github.io/style-dictionary/#/config)
+
+## Bugs, issues & feature requests
+If you have issues concerning the [Design Token plugin for Figma](https://github.com/lukasoppermann/design-tokens) please [create an issue the plugin repo](https://github.com/lukasoppermann/design-tokens). 
+
+Only create an issue in this repository if you have an issue with this transformation package.
