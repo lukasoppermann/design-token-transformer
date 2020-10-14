@@ -1,92 +1,521 @@
 {
-  "colors": {
-    "orange": {
-      "category": "color",
-      "comment": "Our primary color",
-      "value": "rgba(1, 0.5, 0.25, 1)",
-      "type": "color"
+  "sizes": {
+    "32": {
+      "category": "size",
+      "comment": "32.72px spacer component",
+      "value": 32.72,
+      "type": "number",
+      "unit": "pixel"
     },
-    "green": {
-      "category": "color",
-      "value": "rgba(0.25, 1, 0.73, 1)",
-      "type": "color"
+    "frame": {
+      "category": "size",
+      "value": 32,
+      "type": "number",
+      "unit": "pixel"
     },
-    "blue": {
-      "category": "color",
-      "value": "rgba(0.017, 0.292, 1, 1)",
-      "type": "color"
+    "rect": {
+      "category": "size",
+      "value": 32,
+      "type": "number",
+      "unit": "pixel"
     },
-    "secondary": {
-      "green": {
-        "category": "color",
-        "value": "rgba(0.14, 0.688, 0.195, 1)",
-        "type": "color"
+    "shape in component": {
+      "category": "size",
+      "comment": "Should use 32px not 20 from inside shape",
+      "value": 32,
+      "type": "number",
+      "unit": "pixel"
+    }
+  },
+  "borders": {
+    "unsupported": {
+      "gradient borders": {
+        "strokeAlign": {
+          "value": "inside",
+          "type": "string"
+        },
+        "dashPattern": {
+          "value": "",
+          "type": "string"
+        },
+        "strokeCap": {
+          "value": "none",
+          "type": "string"
+        },
+        "strokeJoin": {
+          "value": "miter",
+          "type": "string"
+        },
+        "strokeMiterAngle": {
+          "value": 4,
+          "type": "number",
+          "unit": "degree"
+        },
+        "strokeWeight": {
+          "value": 1,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "stroke": {
+          "type": "color"
+        }
       },
-      "yellow": {
-        "category": "color",
-        "value": "rgba(1, 0.72, 0, 1)",
+      "multiple borders": {
+        "strokeAlign": {
+          "value": "inside",
+          "type": "string"
+        },
+        "dashPattern": {
+          "value": "5,10",
+          "type": "string"
+        },
+        "strokeCap": {
+          "value": "none",
+          "type": "string"
+        },
+        "strokeJoin": {
+          "value": "miter",
+          "type": "string"
+        },
+        "strokeMiterAngle": {
+          "value": 4,
+          "type": "number",
+          "unit": "degree"
+        },
+        "strokeWeight": {
+          "value": 1,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "stroke": {
+          "value": "rgba(255, 230, 0, 1)",
+          "type": "color"
+        }
+      },
+      "image borders": {
+        "strokeAlign": {
+          "value": "inside",
+          "type": "string"
+        },
+        "dashPattern": {
+          "value": "",
+          "type": "string"
+        },
+        "strokeCap": {
+          "value": "none",
+          "type": "string"
+        },
+        "strokeJoin": {
+          "value": "miter",
+          "type": "string"
+        },
+        "strokeMiterAngle": {
+          "value": 4,
+          "type": "number",
+          "unit": "degree"
+        },
+        "strokeWeight": {
+          "value": 1,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "stroke": {
+          "type": "color"
+        }
+      }
+    },
+    "single": {
+      "strokeAlign": {
+        "value": "inside",
+        "type": "string"
+      },
+      "dashPattern": {
+        "value": "",
+        "type": "string"
+      },
+      "strokeCap": {
+        "value": "none",
+        "type": "string"
+      },
+      "strokeJoin": {
+        "value": "miter",
+        "type": "string"
+      },
+      "strokeMiterAngle": {
+        "value": 4,
+        "type": "number",
+        "unit": "degree"
+      },
+      "strokeWeight": {
+        "value": 1,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "stroke": {
+        "value": "rgba(112, 141, 242, 1)",
+        "type": "color"
+      }
+    },
+    "single (style)": {
+      "strokeAlign": {
+        "value": "inside",
+        "type": "string"
+      },
+      "dashPattern": {
+        "value": "",
+        "type": "string"
+      },
+      "strokeCap": {
+        "value": "none",
+        "type": "string"
+      },
+      "strokeJoin": {
+        "value": "miter",
+        "type": "string"
+      },
+      "strokeMiterAngle": {
+        "value": 4,
+        "type": "number",
+        "unit": "degree"
+      },
+      "strokeWeight": {
+        "value": 1,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "stroke": {
+        "value": "rgba(4, 74, 255, 1)",
+        "type": "color"
+      }
+    },
+    "dashed outside": {
+      "strokeAlign": {
+        "value": "outside",
+        "type": "string"
+      },
+      "dashPattern": {
+        "value": "5,5,3,3",
+        "type": "string"
+      },
+      "strokeCap": {
+        "value": "none",
+        "type": "string"
+      },
+      "strokeJoin": {
+        "value": "miter",
+        "type": "string"
+      },
+      "strokeMiterAngle": {
+        "value": 4,
+        "type": "number",
+        "unit": "degree"
+      },
+      "strokeWeight": {
+        "value": 1,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "stroke": {
+        "value": "rgba(64, 255, 186, 1)",
         "type": "color"
       }
     }
   },
-  "utilities": {
-    "error": {
-      "category": "color",
-      "value": "rgba(1, 0, 0, 1)",
-      "type": "color"
-    }
-  },
-  "grid": {
-    "base": {
-      "0": {
-        "pattern": {
-          "value": "columns",
-          "type": "string"
-        },
-        "gutterSize": {
-          "value": 20,
+  "radii": {
+    "same with smoothing": {
+      "category": "radius",
+      "comment": "Radius 5 with corner smoothing",
+      "radius": {
+        "value": 5,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "radiusType": {
+        "value": "single",
+        "type": "string"
+      },
+      "radii": {
+        "topLeft": {
+          "value": 5,
           "type": "number",
           "unit": "pixel"
         },
-        "alignment": {
-          "value": "stretch",
-          "type": "string"
-        },
-        "count": {
+        "topRight": {
           "value": 5,
-          "type": "number"
+          "type": "number",
+          "unit": "pixel"
         },
-        "offset": {
-          "value": 10,
+        "bottomRight": {
+          "value": 5,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomLeft": {
+          "value": 5,
           "type": "number",
           "unit": "pixel"
         }
       },
+      "smoothing": {
+        "value": 0.65,
+        "type": "number"
+      }
+    },
+    "mixed": {
+      "category": "radius",
+      "radiusType": {
+        "value": "mixed",
+        "type": "string"
+      },
+      "radii": {
+        "topLeft": {
+          "value": 1,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "topRight": {
+          "value": 2,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomRight": {
+          "value": 3.5,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "bottomLeft": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "smoothing": {
+        "value": 0,
+        "type": "number"
+      }
+    }
+  },
+  "colors": {
+    "multiple fills": {
+      "0": {
+        "value": "rgba(64, 255, 186, 1)",
+        "type": "color"
+      },
       "1": {
-        "pattern": {
-          "value": "rows",
+        "value": "rgba(0, 0, 0, 0.1)",
+        "type": "color"
+      },
+      "category": "fill"
+    },
+    "single blue": {
+      "category": "fill",
+      "value": "rgba(4, 74, 255, 1)",
+      "type": "color"
+    },
+    "special characters": {
+      "😅": {
+        "category": "fill",
+        "comment": "Emoji",
+        "value": "rgba(64, 223, 80, 1)",
+        "type": "color"
+      },
+      "änderung": {
+        "category": "fill",
+        "value": "rgba(52, 86, 175, 1)",
+        "type": "color"
+      }
+    }
+  },
+  "gradient": {
+    "multiple": {
+      "0": {
+        "gradientType": {
+          "value": "linear",
           "type": "string"
         },
-        "sectionSize": {
-          "value": 8,
-          "type": "number",
-          "unit": "pixel"
+        "stops": {
+          "0": {
+            "position": {
+              "value": 0,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(255, 184, 0, 1)",
+              "type": "color"
+            }
+          },
+          "1": {
+            "position": {
+              "value": 1,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(255, 184, 0, 1)",
+              "type": "color"
+            }
+          }
         },
-        "gutterSize": {
-          "value": 10,
-          "type": "number",
-          "unit": "pixel"
-        },
-        "alignment": {
-          "value": "center",
+        "opacity": {
+          "value": 1,
+          "type": "number"
+        }
+      },
+      "1": {
+        "gradientType": {
+          "value": "radial",
           "type": "string"
         },
-        "count": {
-          "value": 5,
+        "stops": {
+          "0": {
+            "position": {
+              "value": 0,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(255, 255, 255, 1)",
+              "type": "color"
+            }
+          },
+          "1": {
+            "position": {
+              "value": 1,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(255, 255, 255, 1)",
+              "type": "color"
+            }
+          }
+        },
+        "opacity": {
+          "value": 1,
           "type": "number"
         }
       },
       "2": {
+        "gradientType": {
+          "value": "angular",
+          "type": "string"
+        },
+        "stops": {
+          "0": {
+            "position": {
+              "value": 0,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(207, 48, 48, 1)",
+              "type": "color"
+            }
+          },
+          "1": {
+            "position": {
+              "value": 1,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(255, 255, 255, 1)",
+              "type": "color"
+            }
+          }
+        },
+        "opacity": {
+          "value": 1,
+          "type": "number"
+        }
+      },
+      "3": {
+        "gradientType": {
+          "value": "diamond",
+          "type": "string"
+        },
+        "stops": {
+          "0": {
+            "position": {
+              "value": 0,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(74, 79, 204, 1)",
+              "type": "color"
+            }
+          },
+          "1": {
+            "position": {
+              "value": 1,
+              "type": "number"
+            },
+            "color": {
+              "value": "rgba(255, 255, 255, 1)",
+              "type": "color"
+            }
+          }
+        },
+        "opacity": {
+          "value": 1,
+          "type": "number"
+        }
+      },
+      "category": "fill"
+    },
+    "single with multiple color stops": {
+      "category": "fill",
+      "comment": "Four color stops from yellow to red",
+      "gradientType": {
+        "value": "radial",
+        "type": "string"
+      },
+      "stops": {
+        "0": {
+          "position": {
+            "value": 0,
+            "type": "number"
+          },
+          "color": {
+            "value": "rgba(255, 184, 0, 1)",
+            "type": "color"
+          }
+        },
+        "1": {
+          "position": {
+            "value": 0.34,
+            "type": "number"
+          },
+          "color": {
+            "value": "rgba(255, 138, 0, 1)",
+            "type": "color"
+          }
+        },
+        "2": {
+          "position": {
+            "value": 0.65,
+            "type": "number"
+          },
+          "color": {
+            "value": "rgba(255, 46, 0, 1)",
+            "type": "color"
+          }
+        },
+        "3": {
+          "position": {
+            "value": 1,
+            "type": "number"
+          },
+          "color": {
+            "value": "rgba(255, 0, 0, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "opacity": {
+        "value": 1,
+        "type": "number"
+      }
+    }
+  },
+  "grid": {
+    "multiple": {
+      "0": {
         "pattern": {
           "value": "columns",
           "type": "string"
@@ -106,11 +535,59 @@
           "type": "string"
         },
         "count": {
+          "value": 7,
+          "type": "number"
+        },
+        "offset": {
+          "value": 3,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "1": {
+        "pattern": {
+          "value": "columns",
+          "type": "string"
+        },
+        "sectionSize": {
+          "value": 12,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "gutterSize": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "alignment": {
+          "value": "center",
+          "type": "string"
+        },
+        "count": {
+          "value": 6,
+          "type": "number"
+        }
+      },
+      "2": {
+        "pattern": {
+          "value": "columns",
+          "type": "string"
+        },
+        "gutterSize": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "alignment": {
+          "value": "stretch",
+          "type": "string"
+        },
+        "count": {
           "value": 5,
           "type": "number"
         },
         "offset": {
-          "value": 1,
+          "value": 10,
           "type": "number",
           "unit": "pixel"
         }
@@ -135,7 +612,7 @@
           "type": "string"
         },
         "count": {
-          "value": 5,
+          "value": 4,
           "type": "number"
         },
         "offset": {
@@ -160,7 +637,7 @@
           "unit": "pixel"
         },
         "alignment": {
-          "value": "min",
+          "value": "max",
           "type": "string"
         },
         "count": {
@@ -175,6 +652,59 @@
       },
       "5": {
         "pattern": {
+          "value": "rows",
+          "type": "string"
+        },
+        "sectionSize": {
+          "value": 8,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "gutterSize": {
+          "value": 10,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "alignment": {
+          "value": "center",
+          "type": "string"
+        },
+        "count": {
+          "value": 4,
+          "type": "number"
+        }
+      },
+      "6": {
+        "pattern": {
+          "value": "rows",
+          "type": "string"
+        },
+        "sectionSize": {
+          "value": 8,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "gutterSize": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "alignment": {
+          "value": "min",
+          "type": "string"
+        },
+        "count": {
+          "value": 3,
+          "type": "number"
+        },
+        "offset": {
+          "value": 10,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "7": {
+        "pattern": {
           "value": "grid"
         },
         "sectionSize": {
@@ -184,40 +714,9 @@
         }
       },
       "category": "grid",
-      "comment": "A base grid"
+      "comment": "Grid / multiple description text"
     },
-    "weird grid with comment": {
-      "category": "grid",
-      "comment": "COMMENT to describe weird grid",
-      "pattern": {
-        "value": "columns",
-        "type": "string"
-      },
-      "sectionSize": {
-        "value": 21,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "gutterSize": {
-        "value": 13,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "alignment": {
-        "value": "max",
-        "type": "string"
-      },
-      "count": {
-        "value": 5,
-        "type": "number"
-      },
-      "offset": {
-        "value": 23,
-        "type": "number",
-        "unit": "pixel"
-      }
-    },
-    "centered": {
+    "single": {
       "category": "grid",
       "pattern": {
         "value": "columns",
@@ -243,34 +742,13 @@
       }
     }
   },
-  "count auto": {
-    "category": "grid",
-    "pattern": {
-      "value": "rows",
-      "type": "string"
+  "invalid": {
+    "no grid": {
+      "category": "grid"
     },
-    "sectionSize": {
-      "value": 100,
-      "type": "number",
-      "unit": "pixel"
-    },
-    "gutterSize": {
-      "value": 21,
-      "type": "number",
-      "unit": "pixel"
-    },
-    "alignment": {
-      "value": "min",
-      "type": "string"
-    },
-    "count": {
-      "value": "auto",
-      "type": "string"
-    },
-    "offset": {
-      "value": 30,
-      "type": "number",
-      "unit": "pixel"
+    "none": {
+      "category": "effect",
+      "comment": "Effect without effect"
     }
   },
   "body": {
@@ -317,11 +795,56 @@
         "value": "uppercase",
         "type": "string"
       }
+    },
+    "h4 strike through": {
+      "comment": "With stylisitc options",
+      "fontSize": {
+        "value": 16,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textDecoration": {
+        "value": "line-through",
+        "type": "string"
+      },
+      "fontFamily": {
+        "value": "Roboto",
+        "type": "string"
+      },
+      "fontStyle": {
+        "value": "Medium",
+        "type": "string"
+      },
+      "letterSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "percent"
+      },
+      "lineHeight": {
+        "value": "normal",
+        "type": "string",
+        "unit": "auto"
+      },
+      "paragraphIndent": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "paragraphSpacing": {
+        "value": 0,
+        "type": "number",
+        "unit": "pixel"
+      },
+      "textCase": {
+        "value": "none",
+        "type": "string"
+      }
     }
   },
   "effect": {
-    "shadow": {
+    "drop shadow (single)": {
       "category": "effect",
+      "comment": "Drop shadow single description",
       "type": {
         "value": "dropShadow",
         "type": "string"
@@ -335,12 +858,122 @@
         "value": "rgba(0, 0, 0, 0.25)",
         "type": "color"
       },
-      "offset": {},
+      "offset": {
+        "x": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "y": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
       "spread": {
         "value": 0,
         "type": "number",
         "unit": "pixel"
       }
+    },
+    "inner shadow (multiple)": {
+      "0": {
+        "type": {
+          "value": "innerShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 4,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 0.25)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 4,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "1": {
+        "type": {
+          "value": "innerShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 1,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 1)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 10,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 100,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0.5,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "2": {
+        "type": {
+          "value": "innerShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 3,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(0, 0, 0, 0.25)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": -4,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 2,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 11,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "category": "effect"
     },
     "layer blur": {
       "category": "effect",
@@ -366,50 +999,5 @@
         "unit": "pixel"
       }
     }
-  },
-  "inner shadow": {
-    "0": {
-      "type": {
-        "value": "innerShadow",
-        "type": "string"
-      },
-      "radius": {
-        "value": 4,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "color": {
-        "value": "rgba(0, 0, 0, 0.25)",
-        "type": "color"
-      },
-      "offset": {},
-      "spread": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      }
-    },
-    "1": {
-      "type": {
-        "value": "innerShadow",
-        "type": "string"
-      },
-      "radius": {
-        "value": 10,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "color": {
-        "value": "rgba(0, 0, 0, 0.15)",
-        "type": "color"
-      },
-      "offset": {},
-      "spread": {
-        "value": 0,
-        "type": "number",
-        "unit": "pixel"
-      }
-    },
-    "category": "effect"
   }
 }
