@@ -1,0 +1,48 @@
+# Name of the action visible in the action overview
+name: Transform tokens send from figma
+# this triggers the action when a post to "https://api.github.com/repos/:username/:repo/dispatches" comes in
+on:
+  repository_dispatch:
+    # and the event_type property from the request body is 'update-tokens'
+    types: update-tokens
+# the following defines the jon that is run if the above is true
+jobs:
+  build:
+    # the name for the entire job
+    name: Transform Figma design tokens for specific platforms
+    # we run this on ubuntu, leave this alone, if you don't have a good reason to change it
+    runs-on: ubuntu-latest
+    steps:
+      # this lets us work in the actual repository 
+      - uses: actions/checkout@master
+      # if the folder named "tokens" does not exist, create it
+      - name: mkdir "tokens" directory
+        # change tokens here (and in line 32) if you want to use a differently named folder 
+        run: 'mkdir -p tokens'
+      # this creates a json file from the stringified json from the request body
+      - name: create json from request body
+        id: create-json
+        uses: jsdaniell/create-json@1.1.2
+        with:
+          # it uses the name from your settings that was send as then tokenFileName parameter
+          name: ${{ github.event.client_payload.tokenFileName }}
+          # it uses the json string that was send as the tokens parameter
+          json: ${{ github.event.client_payload.tokens }}
+          # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
+          dir: 'tokens'
+      # we now initialize node to run amazon style dictionary to compile the tokens
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          # we use version 14.x of node
+          node-version: 14.x
+      # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
+      - name: Transform design tokens 
+        run: 'npm i && npm run transform-tokens'
+      # We now store the changes in the repository
+      - name: Persist changes in repository
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # this parameter is optional and defaults to master but I am using main
+          BRANCH_NAME: 'main'
