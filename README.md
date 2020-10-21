@@ -1,6 +1,6 @@
 # Design Token Transformer
 
-This package is supposed to be used together with the [Design Tokens](https://github.com/lukasoppermann/design-tokens) plugin for Figma.
+This package is supposed to be used together with the [Design Tokens plugin for Figma](https://github.com/lukasoppermann/design-tokens).
 It transforms the exported design tokens using [Amazon style directory](https://amzn.github.io/style-dictionary/#/).
 
 ## Installation
@@ -48,6 +48,6 @@ If you run into problems, please create an issues in the main [Design Tokens plu
 To customize the output please view the [Amazon style dictionary documentation](https://amzn.github.io/style-dictionary/#/config).
 
 ## Bugs, issues & feature requests
-If you have issues concerning the [Design Token plugin for Figma](https://github.com/lukasoppermann/design-tokens) please [create an issue in the plugin repo](https://github.com/lukasoppermann/design-tokens/issues/new). 
+If you have issues concerning the [Design Tokens plugin for Figma](https://github.com/lukasoppermann/design-tokens) please [create an issue in the plugin repo](https://github.com/lukasoppermann/design-tokens/issues/new). 
 
 Only create an issue in this repository if you have an issue with this transformation package.
