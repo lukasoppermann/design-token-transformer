@@ -25,12 +25,13 @@ To use an exported json file and transform it locally on your machine, follow th
 
 ### Transformation in github repository
 1. Fork this repository.
-2. Adapt the `transform-tokens` script in the [package.json](./package.json).
-3. Adapt the [github workflow](.github/workflows/transform-tokens.yml).
-4. Create a [personal access token](#personal-access-token).
-5. Add the [push to server settings](https://github.com/lukasoppermann/design-tokens/#push-to-server) & your access token in Figma.
-5. Run the `Send Design Tokens to Url` command from the plugin.
-6. 🎉 You should be able to see the action running in your GitHub repo and have all the converted files in the [build folder](./build) once it is done.
+2. Enable github actions in the [actions tab](../../actions)
+3. Adapt the `transform-tokens` script in the [package.json](./package.json).
+4. Adapt the [github workflow](.github/workflows/transform-tokens.yml).
+5. Create a [personal access token](#personal-access-token).
+6. Add the [push to server settings](https://github.com/lukasoppermann/design-tokens/#push-to-server) & your access token in Figma.
+7. Run the `Send Design Tokens to Url` command from the plugin.
+8. 🎉 You should be able to see the action running in your GitHub repo and have all the converted files in the [build folder](./build) once it is done.
 
 #### Personal access token
 The access token should be specifically for this plugin and only have the minimal permissions needed:
