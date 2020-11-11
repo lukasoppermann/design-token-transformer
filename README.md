@@ -33,7 +33,10 @@ Go to the [actions tab](../../actions) in **your fork** of this repository and e
 
 ##### 3. Create a [personal access token](#personal-access-token).
 
-##### 4. Add the [push to server settings](https://github.com/lukasoppermann/design-tokens/#push-to-server) & your access token in Figma.
+##### 4. Add repo url & access token to plugin settings
+In the plugin settings you need to add two items:
+1. Add the url to your repository in the format `https://api.github.com/repo/:username/:repo/dispatches` to the `server-url` field (See [server-url](https://github.com/lukasoppermann/design-tokens/#server-url) for details)
+2. Add the [personal access token](#personal-access-token) to the [access token](https://github.com/lukasoppermann/design-tokens/#access-token) field.
 
 ##### 5. Run the `Send Design Tokens to Url` command from the plugin.
 
