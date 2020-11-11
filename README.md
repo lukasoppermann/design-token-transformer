@@ -15,7 +15,7 @@ git clone https://github.com/lukasoppermann/design-token-transformer.git
 2. Run `npm i` to install the dependencies.
 
 ## Usage
-### Local transformation
+### Option 1: Local transformation
 To use an exported json file and transform it locally on your machine, follow the 3 steps below:
 
 1. Save the `.json` file you exported using the [Design Token](https://github.com/lukasoppermann/design-tokens) plugin to the [`tokens` folder](./tokens/) (and remove the example files).
@@ -23,12 +23,15 @@ To use an exported json file and transform it locally on your machine, follow th
 3. Run `npm run transform-tokens`.
 4. 🎉 Your converted tokens should be in the build folder.
 
-### Transformation in github repository
-1. Fork this repository.  
-   (If you create a custom repo, make sure to copy the [.github/workflows](.github/workflows) folder or create your own workflow file)
-2. Enable github actions in the [actions tab](../../actions) in **your fork** of this repository.
-3. Adapt the `transform-tokens` script in the [package.json](./package.json).
-4. Adapt the [github workflow](.github/workflows/transform-tokens.yml).
+### Option 2: Transformation in github repository (or on server)
+##### 1. Fork this repository.  
+It is recommended to create a [fork](../../fork) of this repository and adapt it to your needs.   
+Should you decide to instead create a new repo, make sure to set up a [.github/workflows](.github/workflows) file that handles the data.
+
+##### 2. Enable github actions in the [actions tab](../../actions) 
+You in **your fork** of this repository.
+##### 3. Adapt the `transform-tokens` script in the [package.json](./package.json).
+##### 4. Adapt the [github workflow](.github/workflows/transform-tokens.yml).
 5. Create a [personal access token](#personal-access-token).
 6. Add the [push to server settings](https://github.com/lukasoppermann/design-tokens/#push-to-server) & your access token in Figma.
 7. Run the `Send Design Tokens to Url` command from the plugin.
@@ -48,6 +51,16 @@ If you run into problems, please create an issues in the main [Design Tokens plu
 
 ## Customization
 To customize the output please view the [Amazon style dictionary documentation](https://amzn.github.io/style-dictionary/#/config).
+
+## FAQ
+### I don't see the tokens in the github repositiory
+1. Make sure you have a [.github/workflows](.github/workflows)
+2. Make sure you enabled github actions in the [actions tab](../../actions) of **your** repositiory.
+3. Verify that you specified the correct server url in the plugin settings: `https://api.github.com/repos/{username}/{reponame}/dispatches` (replace `{username}` with your username e.g. `lukasoppermann` and `{reponame}` with the name of your repo e.g. `design-token-transformer`)
+3. Verify that the action runs without any error
+
+### I can't enable github actions
+If you only see the `Get started with GitHub Actions` page without an option to `enable actions` you either deleted the [.github/workflows](.github/workflows) file from your forked repository, or you created a new repositiory without adding a [.github/workflows](.github/workflows) file.
 
 ## Bugs, issues & feature requests
 If you have issues concerning the [Design Tokens plugin for Figma](https://github.com/lukasoppermann/design-tokens) please [create an issue in the plugin repo](https://github.com/lukasoppermann/design-tokens/issues/new). 
