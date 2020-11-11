@@ -25,7 +25,7 @@ To use an exported json file and transform it locally on your machine, follow th
 
 ### Transformation in github repository
 1. Fork this repository.
-2. Enable github actions in the [actions tab](../../actions)
+2. Enable github actions in the [actions tab](../../actions) in **your fork** of this repository
 3. Adapt the `transform-tokens` script in the [package.json](./package.json).
 4. Adapt the [github workflow](.github/workflows/transform-tokens.yml).
 5. Create a [personal access token](#personal-access-token).
