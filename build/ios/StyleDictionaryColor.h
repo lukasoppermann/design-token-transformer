@@ -3,7 +3,7 @@
 // StyleDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Fri, 06 Nov 2020 20:33:02 GMT
+// Generated on Sat, 13 Feb 2021 01:33:19 GMT
 //
 
 #import <UIKit/UIKit.h>
@@ -34,7 +34,45 @@ GradientSingleWithMultipleColorStopsStops3Color,
 EffectDropShadowSingleColor,
 EffectInnerShadowMultiple0Color,
 EffectInnerShadowMultiple1Color,
-EffectInnerShadowMultiple2Color
+EffectInnerShadowMultiple2Color,
+LightThemeBrandPrimary,
+LightThemeBrandSecondary,
+LightThemeBrandAccent,
+LightThemeBrandMuted,
+LightThemeUiPrimary,
+LightThemeUiSecondary,
+LightThemeUiTertiary,
+LightThemeUiQuaternary,
+LightThemeUiDisabled,
+LightThemeUiError,
+LightThemeUiSuccess,
+LightThemeBackground1,
+LightThemeBackground2,
+LightThemeTextPrimary,
+LightThemeTextSecondary,
+LightThemeTextDisabled,
+LightThemeTextInverse,
+LightThemeTextError,
+LightThemeTextSuccess,
+DarkThemeBrandPrimary,
+DarkThemeBrandSecondary,
+DarkThemeBrandAccent,
+DarkThemeBrandMuted,
+DarkThemeUiPrimary,
+DarkThemeUiSecondary,
+DarkThemeUiTertiary,
+DarkThemeUiQuaternary,
+DarkThemeUiDisabled,
+DarkThemeUiError,
+DarkThemeUiSuccess,
+DarkThemeBackground1,
+DarkThemeBackground2,
+DarkThemeTextPrimary,
+DarkThemeTextSecondary,
+DarkThemeTextDisabled,
+DarkThemeTextInverse,
+DarkThemeTextError,
+DarkThemeTextSuccess
 };
 
 @interface StyleDictionaryColor : NSObject
