@@ -3,7 +3,7 @@
 // StyleDictionarySize.m
 //
 // Do not edit directly
-// Generated on Sat, 13 Feb 2021 01:33:19 GMT
+// Generated on Sat, 13 Feb 2021 01:36:38 GMT
 //
 
 #import "StyleDictionarySize.h"
@@ -218,7 +218,7 @@ float const TextHintLetterSpacing = 0;
 float const TextHintLineHeight = 125;
 float const TextHintParagraphIndent = 0;
 float const TextHintParagraphSpacing = 0;
-float const TextLabelFontSize = 12;
+float const TextLabelFontSize = 288;
 float const TextLabelFontWeight = 500;
 float const TextLabelLetterSpacing = 0;
 float const TextLabelLineHeight = 125;

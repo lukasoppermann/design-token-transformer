@@ -1261,7 +1261,7 @@
     "label": {
       "category": "font",
       "fontSize": {
-        "value": 12,
+        "value": 288,
         "type": "number",
         "unit": "pixel"
       },
