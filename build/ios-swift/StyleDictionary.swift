@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Tue, 30 Mar 2021 20:43:12 GMT
+// Generated on Tue, 08 Jun 2021 16:07:04 GMT
 //
 
 
@@ -122,6 +122,9 @@ public class StyleDictionary {
     public static let bordersUnsupportedMultipleBordersStrokeJoin = miter
     public static let bordersUnsupportedMultipleBordersStrokeMiterLimit = 4
     public static let bordersUnsupportedMultipleBordersStrokeWeight = 1
+    public static let breakpointsLg = 1280
+    public static let breakpointsMd = 1024
+    public static let breakpointsSm = 768
     public static let colorsMultipleFills0 = rgba(64, 255, 186, 1)
     public static let colorsMultipleFills1 = rgba(0, 0, 0, 0.1)
     public static let colorsSingleBlue = rgba(4, 74, 255, 1)
@@ -297,8 +300,14 @@ public class StyleDictionary {
     public static let sizes60 = 60
     public static let sizes80 = 80
     public static let sizesFrame = 32
+    public static let sizesInVariant120 = 120
+    public static let sizesInVariant60 = 60
+    public static let sizesInVariant90 = 90
+    public static let sizesPlainToken = 200
     public static let sizesRect = 32
     public static let sizesShapeInComponent = 32
+    public static let sizesTokenInFrame = 200
+    public static let sizesTokenInGroup = 200
     public static let spacing10Bottom = 10
     public static let spacing10Left = 10
     public static let spacing10Right = 10

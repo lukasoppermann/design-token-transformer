@@ -3,7 +3,7 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Tue, 30 Mar 2021 20:43:12 GMT
+// Generated on Tue, 08 Jun 2021 16:07:04 GMT
 //
 
 import UIKit
@@ -52,6 +52,9 @@ public enum StyleDictionarySize {
     public static let unsupportedImageBordersStrokeWeight = 1
     public static let unsupportedMultipleBordersStrokeMiterLimit = 4
     public static let unsupportedMultipleBordersStrokeWeight = 1
+    public static let lg = 1280
+    public static let md = 1024
+    public static let sm = 768
     public static let backgroundBlurRadius = 4
     public static let dropShadowSingleOffsetX = 0
     public static let dropShadowSingleOffsetY = 4
@@ -164,8 +167,14 @@ public enum StyleDictionarySize {
     public static let 60 = 60
     public static let 80 = 80
     public static let frame = 32
+    public static let inVariant120 = 120
+    public static let inVariant60 = 60
+    public static let inVariant90 = 90
+    public static let plainToken = 200
     public static let rect = 32
     public static let shapeInComponent = 32
+    public static let tokenInFrame = 200
+    public static let tokenInGroup = 200
     public static let 10Bottom = 10
     public static let 10Left = 10
     public static let 10Right = 10

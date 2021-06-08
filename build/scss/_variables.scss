@@ -1,14 +1,23 @@
 
 // Do not edit directly
-// Generated on Tue, 30 Mar 2021 20:43:12 GMT
+// Generated on Tue, 08 Jun 2021 16:07:03 GMT
 
 $sizes-32: 32.72; // 32.72px spacer component
 $sizes-40: 40;
 $sizes-60: 60;
 $sizes-80: 80;
+$sizes-plain-token: 200;
+$sizes-token-in-frame: 200;
+$sizes-token-in-group: 200;
+$sizes-in-variant-60: 60;
+$sizes-in-variant-90: 90;
+$sizes-in-variant-120: 120;
 $sizes-frame: 32;
 $sizes-rect: 32;
 $sizes-shape-in-component: 32; // Should use 32px not 20 from inside shape
+$breakpoints-lg: 1280;
+$breakpoints-sm: 768;
+$breakpoints-md: 1024;
 $spacing-10-top: 10;
 $spacing-10-right: 10;
 $spacing-10-bottom: 10;
