@@ -1,0 +1,868 @@
+{
+  "desktop": {
+    "light": {
+      "button": {
+        "color": {
+          "background": {
+            "primary": {
+              "category": "fill",
+              "comment": "CSS token: --desktop-light-primary-button",
+              "value": "rgba(0, 96, 223, 1)",
+              "type": "color"
+            },
+            "primary hover": {
+              "category": "fill",
+              "comment": "CSS token: --desktop-light-primary-button-hover",
+              "value": "rgba(2, 80, 187, 1)",
+              "type": "color"
+            },
+            "primary active": {
+              "category": "fill",
+              "comment": "Pressed, MouseDown",
+              "value": "rgba(5, 64, 150, 1)",
+              "type": "color"
+            },
+            "primary disabled": {
+              "category": "fill",
+              "value": "rgba(0, 96, 223, 0.4)",
+              "type": "color"
+            },
+            "secondary": {
+              "category": "fill",
+              "value": "rgba(240, 240, 244, 1)",
+              "type": "color"
+            },
+            "secondary hover": {
+              "category": "fill",
+              "value": "rgba(224, 224, 230, 1)",
+              "type": "color"
+            },
+            "secondary active": {
+              "category": "fill",
+              "comment": "Pressed, MouseDown",
+              "value": "rgba(207, 207, 216, 1)",
+              "type": "color"
+            },
+            "secondary disabled": {
+              "category": "fill",
+              "value": "rgba(240, 240, 244, 0.4)",
+              "type": "color"
+            },
+            "error": {
+              "category": "fill",
+              "value": "rgba(226, 40, 80, 1)",
+              "type": "color"
+            },
+            "error hover": {
+              "category": "fill",
+              "value": "rgba(197, 0, 66, 1)",
+              "type": "color"
+            },
+            "error active": {
+              "category": "fill",
+              "comment": "Pressed, MouseDown",
+              "value": "rgba(129, 2, 32, 1)",
+              "type": "color"
+            },
+            "error disabled": {
+              "category": "fill",
+              "value": "rgba(226, 40, 80, 0.4)",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "text": {
+        "color": {
+          "link": {
+            "category": "fill",
+            "value": "rgba(0, 96, 223, 1)",
+            "type": "color"
+          },
+          "primary": {
+            "category": "fill",
+            "value": "rgba(21, 20, 26, 1)",
+            "type": "color"
+          },
+          "secondary": {
+            "category": "fill",
+            "value": "rgba(91, 91, 102, 1)",
+            "type": "color"
+          },
+          "error": {
+            "category": "fill",
+            "value": "rgba(197, 0, 66, 1)",
+            "type": "color"
+          },
+          "disabled": {
+            "category": "fill",
+            "value": "rgba(21, 20, 26, 0.4)",
+            "type": "color"
+          },
+          "inverted": {
+            "category": "fill",
+            "value": "rgba(251, 251, 254, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "etp": {
+            "category": "fill",
+            "comment": "Use for ETP Active ONLY",
+            "gradientType": {
+              "value": "linear",
+              "type": "string"
+            },
+            "stops": {
+              "0": {
+                "position": {
+                  "value": 0,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(144, 89, 255, 1)",
+                  "type": "color"
+                }
+              },
+              "1": {
+                "position": {
+                  "value": 1,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(2, 80, 187, 1)",
+                  "type": "color"
+                }
+              }
+            },
+            "opacity": {
+              "value": 1,
+              "type": "number"
+            }
+          },
+          "default": {
+            "category": "fill",
+            "value": "rgba(91, 91, 102, 1)",
+            "type": "color"
+          },
+          "information": {
+            "category": "fill",
+            "value": "rgba(0, 144, 237, 1)",
+            "type": "color"
+          },
+          "warning": {
+            "category": "fill",
+            "value": "rgba(255, 164, 54, 1)",
+            "type": "color"
+          },
+          "critical": {
+            "category": "fill",
+            "value": "rgba(226, 40, 80, 1)",
+            "type": "color"
+          },
+          "success": {
+            "category": "fill",
+            "comment": "Use for Update & Restart",
+            "value": "rgba(42, 195, 162, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "layer": {
+        "color": {
+          "100": {
+            "category": "fill",
+            "value": "rgba(240, 240, 244, 1)",
+            "type": "color"
+          },
+          "200": {
+            "category": "fill",
+            "value": "rgba(249, 249, 251, 1)",
+            "type": "color"
+          },
+          "300": {
+            "category": "fill",
+            "value": "rgba(255, 255, 255, 1)",
+            "type": "color"
+          },
+          "scrim": {
+            "category": "fill",
+            "value": "rgba(91, 91, 102, 0.45)",
+            "type": "color"
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "zap": {
+            "category": "fill",
+            "gradientType": {
+              "value": "linear",
+              "type": "string"
+            },
+            "stops": {
+              "0": {
+                "position": {
+                  "value": 0,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(144, 89, 255, 1)",
+                  "type": "color"
+                }
+              },
+              "1": {
+                "position": {
+                  "value": 0.52,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(255, 74, 162, 1)",
+                  "type": "color"
+                }
+              },
+              "2": {
+                "position": {
+                  "value": 1,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(255, 189, 79, 1)",
+                  "type": "color"
+                }
+              }
+            },
+            "opacity": {
+              "value": 1,
+              "type": "number"
+            }
+          },
+          "ui-component": {
+            "category": "fill",
+            "value": "rgba(143, 143, 157, 1)",
+            "type": "color"
+          },
+          "panel": {
+            "category": "fill",
+            "value": "rgba(240, 240, 244, 1)",
+            "type": "color"
+          },
+          "modal": {
+            "category": "fill",
+            "value": "rgba(240, 240, 244, 1)",
+            "type": "color"
+          },
+          "context-menu": {
+            "category": "fill",
+            "value": "rgba(207, 207, 216, 1)",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "dark": {
+      "button": {
+        "color": {
+          "background": {
+            "primary": {
+              "category": "fill",
+              "value": "rgba(0, 221, 255, 1)",
+              "type": "color"
+            },
+            "primary hover": {
+              "category": "fill",
+              "value": "rgba(128, 235, 255, 1)",
+              "type": "color"
+            },
+            "primary active": {
+              "category": "fill",
+              "value": "rgba(170, 242, 255, 1)",
+              "type": "color"
+            },
+            "primary disabled": {
+              "category": "fill",
+              "value": "rgba(0, 221, 255, 0.4)",
+              "type": "color"
+            },
+            "secondary": {
+              "category": "fill",
+              "value": "rgba(43, 42, 51, 1)",
+              "type": "color"
+            },
+            "secondary hover": {
+              "category": "fill",
+              "value": "rgba(82, 82, 94, 1)",
+              "type": "color"
+            },
+            "secondary active": {
+              "category": "fill",
+              "value": "rgba(91, 91, 102, 1)",
+              "type": "color"
+            },
+            "secondary disabled": {
+              "category": "fill",
+              "value": "rgba(43, 42, 51, 0.4)",
+              "type": "color"
+            },
+            "error": {
+              "category": "fill",
+              "value": "rgba(226, 40, 80, 1)",
+              "type": "color"
+            },
+            "error hover": {
+              "category": "fill",
+              "value": "rgba(197, 0, 66, 1)",
+              "type": "color"
+            },
+            "error active": {
+              "category": "fill",
+              "value": "rgba(129, 2, 32, 1)",
+              "type": "color"
+            },
+            "error disabled": {
+              "category": "fill",
+              "value": "rgba(226, 40, 80, 0.4)",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "text": {
+        "color": {
+          "disabled": {
+            "category": "fill",
+            "value": "rgba(251, 251, 254, 0.4)",
+            "type": "color"
+          },
+          "primary": {
+            "category": "fill",
+            "value": "rgba(251, 251, 254, 1)",
+            "type": "color"
+          },
+          "secondary": {
+            "category": "fill",
+            "value": "rgba(207, 207, 216, 1)",
+            "type": "color"
+          },
+          "inverted": {
+            "category": "fill",
+            "value": "rgba(21, 20, 26, 1)",
+            "type": "color"
+          },
+          "link": {
+            "category": "fill",
+            "value": "rgba(0, 221, 255, 1)",
+            "type": "color"
+          },
+          "error": {
+            "category": "fill",
+            "value": "rgba(255, 154, 162, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "icon": {
+        "color": {
+          "etp-shield": {
+            "category": "fill",
+            "gradientType": {
+              "value": "linear",
+              "type": "string"
+            },
+            "stops": {
+              "0": {
+                "position": {
+                  "value": 0,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(203, 158, 255, 1)",
+                  "type": "color"
+                }
+              },
+              "1": {
+                "position": {
+                  "value": 1,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(0, 221, 255, 1)",
+                  "type": "color"
+                }
+              }
+            },
+            "opacity": {
+              "value": 1,
+              "type": "number"
+            }
+          },
+          "default": {
+            "category": "fill",
+            "value": "rgba(251, 251, 254, 1)",
+            "type": "color"
+          },
+          "information": {
+            "category": "fill",
+            "value": "rgba(128, 235, 255, 1)",
+            "type": "color"
+          },
+          "warning": {
+            "category": "fill",
+            "value": "rgba(255, 189, 79, 1)",
+            "type": "color"
+          },
+          "critical": {
+            "category": "fill",
+            "value": "rgba(255, 154, 162, 1)",
+            "type": "color"
+          },
+          "success": {
+            "category": "fill",
+            "value": "rgba(84, 255, 189, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "layer": {
+        "color": {
+          "scrim": {
+            "category": "fill",
+            "value": "rgba(91, 91, 102, 0.45)",
+            "type": "color"
+          },
+          "layer 1": {
+            "category": "fill",
+            "value": "rgba(28, 27, 34, 1)",
+            "type": "color"
+          },
+          "layer 2": {
+            "category": "fill",
+            "value": "rgba(43, 42, 51, 1)",
+            "type": "color"
+          },
+          "layer 3": {
+            "category": "fill",
+            "value": "rgba(66, 65, 77, 1)",
+            "type": "color"
+          }
+        }
+      },
+      "border": {
+        "color": {
+          "zap": {
+            "category": "fill",
+            "gradientType": {
+              "value": "linear",
+              "type": "string"
+            },
+            "stops": {
+              "0": {
+                "position": {
+                  "value": 0,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(144, 89, 255, 1)",
+                  "type": "color"
+                }
+              },
+              "1": {
+                "position": {
+                  "value": 0.52,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(255, 74, 162, 1)",
+                  "type": "color"
+                }
+              },
+              "2": {
+                "position": {
+                  "value": 1,
+                  "type": "number"
+                },
+                "color": {
+                  "value": "rgba(255, 189, 79, 1)",
+                  "type": "color"
+                }
+              }
+            },
+            "opacity": {
+              "value": 1,
+              "type": "number"
+            }
+          },
+          "ui-component": {
+            "category": "fill",
+            "value": "rgba(143, 143, 157, 1)",
+            "type": "color"
+          },
+          "panel": {
+            "category": "fill",
+            "value": "rgba(82, 82, 94, 1)",
+            "type": "color"
+          },
+          "context-menu": {
+            "category": "fill",
+            "value": "rgba(58, 57, 68, 1)",
+            "type": "color"
+          }
+        }
+      }
+    }
+  },
+  "light": {
+    "elevation": {
+      "shadow 01": {
+        "category": "effect",
+        "comment": "Use for Panels",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 6,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(58, 57, 68, 0.2)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 2,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "shadow 02": {
+        "category": "effect",
+        "comment": "Use for Menus, Modals, Address Bar,",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(58, 57, 68, 0.2)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 2,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "shadow 03": {
+        "category": "effect",
+        "comment": "Use for Infobars",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 2,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(58, 57, 68, 0.2)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 1,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "shadow tab": {
+        "0": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 4,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(128, 128, 142, 0.5)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "1": {
+          "type": {
+            "value": "dropShadow",
+            "type": "string"
+          },
+          "radius": {
+            "value": 1,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "color": {
+            "value": "rgba(128, 128, 142, 0.9)",
+            "type": "color"
+          },
+          "offset": {
+            "x": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            },
+            "y": {
+              "value": 0,
+              "type": "number",
+              "unit": "pixel"
+            }
+          },
+          "spread": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "category": "effect",
+        "comment": "used ONLY for active tab"
+      },
+      "shadow switch": {
+        "category": "effect",
+        "comment": "Used for toggle switch",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 2,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(58, 57, 68, 0.2)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      }
+    }
+  },
+  "dark": {
+    "elevation": {
+      "shadow 01": {
+        "category": "effect",
+        "comment": "Use for Panels",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 6,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(28, 27, 34, 0.5)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 2,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "shadow 02": {
+        "category": "effect",
+        "comment": "Use for Menus, Modals, Address Bar,",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(28, 27, 34, 0.5)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 2,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "shadow 03": {
+        "category": "effect",
+        "comment": "Use for Infobars",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 2,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(28, 27, 34, 0.5)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 1,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      },
+      "shadow tab": {
+        "category": "effect",
+        "comment": "No shadow for Dark Active Tab ONLY"
+      },
+      "shadow switch": {
+        "category": "effect",
+        "comment": "Used for toggle switch",
+        "type": {
+          "value": "dropShadow",
+          "type": "string"
+        },
+        "radius": {
+          "value": 2,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "color": {
+          "value": "rgba(58, 57, 68, 0.2)",
+          "type": "color"
+        },
+        "offset": {
+          "x": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          },
+          "y": {
+            "value": 0,
+            "type": "number",
+            "unit": "pixel"
+          }
+        },
+        "spread": {
+          "value": 0,
+          "type": "number",
+          "unit": "pixel"
+        }
+      }
+    }
+  }
+}

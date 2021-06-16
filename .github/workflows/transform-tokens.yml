@@ -43,6 +43,6 @@ jobs:
       - name: Persist changes in repository
         uses: mikeal/publish-to-github-action@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: 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
           # this parameter is optional and defaults to master but I am using main
           BRANCH_NAME: 'main'

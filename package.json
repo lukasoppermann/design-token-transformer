@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukasoppermann/design-token-transformer.git"
+    "url": "git+https://github.com/FirefoxUX/design-token-transformer.git"
   },
   "author": "Lukas Oppermann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukasoppermann/design-token-transformer/issues"
+    "url": "https://github.com/FirefoxUX/design-token-transformer/issues"
   },
-  "homepage": "https://github.com/lukasoppermann/design-token-transformer#readme"
+  "homepage": "https://github.com/FirefoxUX/design-token-transformer#readme"
 }
