@@ -35,6 +35,14 @@
         }
       ]
     },
+    "android": {
+      "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/remToSp", "size/remToDp"],
+      "buildPath": "build/android/",
+      "files": [{
+        "destination": "style_dictionary_colors.xml",
+        "template": "android/colors"
+      }]
+    },
     "ios": {
       "transformGroup": "ios",
       "buildPath": "build/ios/",
