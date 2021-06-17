@@ -1,7 +1,7 @@
 {
-  "name": "design-token-transformer",
+  "name": "firefox-design-tokens",
   "version": "0.5.0",
-  "description": "Base repo to transform json design tokens from the figma design token plugin via amazon style directory.",
+  "description": "Access Firefox design tokens.",
   "main": "index.js",
   "dependencies": {
     "style-dictionary": "^2.10.1"
@@ -18,7 +18,7 @@
   "author": "Lukas Oppermann",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FirefoxUX/design-token-transformer/issues"
+    "url": "https://github.com/lukasoppermann/design-token-transformer/issues"
   },
-  "homepage": "https://github.com/FirefoxUX/design-token-transformer#readme"
+  "homepage": "https://github.com/lukasoppermann/design-token-transformer#readme"
 }
