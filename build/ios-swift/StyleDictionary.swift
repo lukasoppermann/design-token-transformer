@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Tue, 22 Jun 2021 06:50:48 GMT
+// Generated on Thu, 24 Jun 2021 18:53:39 GMT
 //
 
 
