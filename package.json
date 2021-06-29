@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "npm run transform-tokens",
-    "transform-tokens": "style-dictionary build"
+    "transform-tokens": "style-dictionary build",
+    "w3c": "node w3c-config.js"
   },
   "repository": {
     "type": "git",

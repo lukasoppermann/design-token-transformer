@@ -1,0 +1,13 @@
+{
+  "tokens": [{
+    "name": "sizes/32",
+    "value": 32.72,
+    "description": "32.72px spacer component",
+    "data": {
+      "category": "size",
+      "type": "number",
+      "unit": "pixel"
+    }
+  }],
+  "version": "3.2.1"
+}
