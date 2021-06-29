@@ -1,8 +1,0 @@
-# style dictionary
-
-/lib/unique_file
-/lib/style_dictionary_color.dart
-/lib/style_dictionary_sizes.dart
-.dart_tool/
-.packages
-pubspec.lock

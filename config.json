@@ -22,7 +22,10 @@
       "buildPath": "build/css/",
       "files": [{
         "destination": "_variables.css",
-        "format": "css/variables"
+        "format": "css/variables",
+        "options" : {
+          "showFileHeader": false
+        }
       }]
     },
     "json-flat": {

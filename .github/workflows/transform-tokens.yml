@@ -25,7 +25,7 @@ jobs:
         uses: jsdaniell/create-json@1.1.2
         with:
           # it uses the name from your settings that was send as then tokenFileName parameter
-          name: ${{ github.event.client_payload.tokenFileName }}
+          name: 'design-tokens-example.json'
           # it uses the json string that was send as the tokens parameter
           json: ${{ github.event.client_payload.tokens }}
           # it uses the directory named "tokens" to store this json file (change this if you changed it above to use a different folder)
