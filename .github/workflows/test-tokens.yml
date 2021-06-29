@@ -3,10 +3,10 @@
 name: Testing
 
 on:
-  repository_dispatch:
-    # and the event_type property from the request body is 'update-tokens'
-    types: update-tokens
-
+  workflow_run:
+    workflows: ["Transform tokens send from figma"]
+    types: [completed]
+    
 jobs:
   test:
     runs-on: ubuntu-latest
