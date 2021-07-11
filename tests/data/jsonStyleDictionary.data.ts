@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   sizes: {
     32: {
       category: 'size',
@@ -1055,17 +1055,6 @@ export default {
         value: 5,
         type: 'number'
       }
-    }
-  },
-  invalid: {
-    'no grid': {
-      category: 'grid',
-      exportKey: 'grid'
-    },
-    none: {
-      category: 'effect',
-      exportKey: 'effect',
-      comment: 'Effect without effect'
     }
   },
   font: {

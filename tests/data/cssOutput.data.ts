@@ -1,4 +1,4 @@
-export default
+module.exports = 
 `:root {
   --sizes-32: 32.72; /* 32.72px spacer component */
   --sizes-40: 40;
