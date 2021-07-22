@@ -2,7 +2,7 @@
   "source": ["tokens/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
+      "transformGroup": "custom/scss",
       "buildPath": "build/scss/",
       "files": [{
         "destination": "_variables.scss",
@@ -10,7 +10,7 @@
       }]
     },
     "less": {
-      "transformGroup": "less",
+      "transformGroup": "custom/less",
       "buildPath": "build/less/",
       "files": [{
         "destination": "_variables.less",
@@ -18,7 +18,7 @@
       }]
     },
     "css": {
-      "transformGroup": "css",
+      "transformGroup": "custom/css",
       "buildPath": "build/css/",
       "files": [{
         "destination": "_variables.css",

@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "npm run transform-tokens",
-    "transform-tokens": "style-dictionary build",
+    "transform-tokens": "node ./transformTokens.js",
     "test": "jest tests --coverage=false"
   },
   "repository": {
