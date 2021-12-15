@@ -39,9 +39,13 @@ jobs:
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       - name: Transform design tokens 
         run: 'npm i && npm run transform-tokens'
-      # We now store the changes in the repository
-      - name: Persist changes in repository
-        uses: mikeal/publish-to-github-action@master
+      # We now create a pull request 
+      - name: Create PR 
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: "Update tokens"
+          title: "Design token updates"
+          body: "Design tokens have been updated in Figma and need reviewed."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
