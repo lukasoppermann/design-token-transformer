@@ -43,9 +43,9 @@ jobs:
       - name: Create PR 
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: "Update tokens"
-          title: "Design token updates"
-          body: "Design tokens have been updated in Figma and need reviewed."
+          commit-message: "Tokens updated"
+          title: "Design tokens updated"
+          body: "Design tokens have been updated via Figma and need to be reviewed."
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
