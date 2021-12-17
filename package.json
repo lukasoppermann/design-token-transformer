@@ -3,13 +3,17 @@
   "version": "0.6.0",
   "description": "Base repo to transform json design tokens from the figma design token plugin via amazon style directory.",
   "main": "index.js",
+  "@comment dependencies": [
+    "jsonc-parser: once style-dictionary fixies it, this can be removes"
+  ],
   "dependencies": {
-    "style-dictionary": "^3"
+    "style-dictionary": "^3",
+    "jsonc-parser": "^3.0.0"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.3",
     "jest": "^27.0.6",
-    "ts-jest": "^27.0.3",
-    "@types/jest": "^26.0.23"
+    "ts-jest": "^27.0.3"
   },
   "scripts": {
     "start": "npm run transform-tokens",
