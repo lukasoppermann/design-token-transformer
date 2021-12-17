@@ -23,6 +23,7 @@
       "files": [{
         "destination": "_variables.css",
         "format": "css/variables",
+        "filter": "validToken",
         "options" : {
           "showFileHeader": false
         }

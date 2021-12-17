@@ -1,1570 +1,1244 @@
 module.exports = {
-  sizes: {
-    32: {
-      category: 'size',
-      exportKey: 'size',
-      comment: '32.72px spacer component',
-      value: 32.72,
-      type: 'number',
-      unit: 'pixel'
-    },
-    40: {
-      category: 'size',
-      exportKey: 'size',
-      value: 40,
-      type: 'number',
-      unit: 'pixel'
-    },
-    60: {
-      category: 'size',
-      exportKey: 'size',
-      value: 60,
-      type: 'number',
-      unit: 'pixel'
-    },
-    80: {
-      category: 'size',
-      exportKey: 'size',
-      value: 80,
-      type: 'number',
-      unit: 'pixel'
-    },
-    'plain token': {
-      category: 'size',
-      exportKey: 'size',
-      value: 200,
-      type: 'number',
-      unit: 'pixel'
-    },
-    'token in frame': {
-      category: 'size',
-      exportKey: 'size',
-      value: 200,
-      type: 'number',
-      unit: 'pixel'
-    },
-    'token in group': {
-      category: 'size',
-      exportKey: 'size',
-      value: 200,
-      type: 'number',
-      unit: 'pixel'
-    },
-    'in variant 60': {
-      category: 'size',
-      exportKey: 'size',
-      value: 60,
-      type: 'number',
-      unit: 'pixel'
-    },
-    'in variant 90': {
-      category: 'size',
-      exportKey: 'size',
-      value: 90,
-      type: 'number',
-      unit: 'pixel'
-    },
-    'in variant 120': {
-      category: 'size',
-      exportKey: 'size',
-      value: 120,
-      type: 'number',
-      unit: 'pixel'
-    },
-    frame: {
-      category: 'size',
-      exportKey: 'size',
-      value: 32,
-      type: 'number',
-      unit: 'pixel'
-    },
-    rect: {
-      category: 'size',
-      exportKey: 'size',
-      value: 32,
-      type: 'number',
-      unit: 'pixel'
-    },
-    'shape in component': {
-      category: 'size',
-      exportKey: 'size',
-      comment: 'Should use 32px not 20 from inside shape',
-      value: 32,
-      type: 'number',
-      unit: 'pixel'
-    }
-  },
-  spacing: {
-    10: {
-      category: 'spacing',
-      exportKey: 'spacing',
-      top: {
-        value: 10,
-        type: 'number',
-        unit: 'pixel'
-      },
-      right: {
-        value: 10,
-        type: 'number',
-        unit: 'pixel'
-      },
-      bottom: {
-        value: 10,
-        type: 'number',
-        unit: 'pixel'
-      },
-      left: {
-        value: 10,
-        type: 'number',
-        unit: 'pixel'
+  "sizes": {
+    "32": {
+      "description": "32.72px spacer component",
+      "value": 32.72,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
       }
     },
-    mixed: {
-      category: 'spacing',
-      exportKey: 'spacing',
-      top: {
-        value: 10,
-        type: 'number',
-        unit: 'pixel'
-      },
-      right: {
-        value: 20,
-        type: 'number',
-        unit: 'pixel'
-      },
-      bottom: {
-        value: 30,
-        type: 'number',
-        unit: 'pixel'
-      },
-      left: {
-        value: 20,
-        type: 'number',
-        unit: 'pixel'
+    "40": {
+      "description": null,
+      "value": 40,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
       }
     },
-    top: {
-      category: 'spacing',
-      exportKey: 'spacing',
-      top: {
-        value: 10,
-        type: 'number',
-        unit: 'pixel'
-      },
-      right: {
-        value: 0,
-        type: 'number',
-        unit: 'pixel'
-      },
-      bottom: {
-        value: 0,
-        type: 'number',
-        unit: 'pixel'
-      },
-      left: {
-        value: 0,
-        type: 'number',
-        unit: 'pixel'
-      }
-    }
-  },
-  borders: {
-    single: {
-      category: 'border',
-      exportKey: 'border',
-      strokeAlign: {
-        value: 'inside',
-        type: 'string'
-      },
-      dashPattern: {
-        value: '',
-        type: 'string'
-      },
-      strokeCap: {
-        value: 'none',
-        type: 'string'
-      },
-      strokeJoin: {
-        value: 'miter',
-        type: 'string'
-      },
-      strokeMiterLimit: {
-        value: 4,
-        type: 'number',
-        unit: 'degree'
-      },
-      strokeWeight: {
-        value: 5,
-        type: 'number',
-        unit: 'pixel'
-      },
-      stroke: {
-        value: 'rgba(0, 0, 0, 1)',
-        type: 'color'
+    "60": {
+      "description": null,
+      "value": 60,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
       }
     },
-    'dashed outside': {
-      category: 'border',
-      exportKey: 'border',
-      strokeAlign: {
-        value: 'outside',
-        type: 'string'
-      },
-      dashPattern: {
-        value: '5,5,3,3',
-        type: 'string'
-      },
-      strokeCap: {
-        value: 'none',
-        type: 'string'
-      },
-      strokeJoin: {
-        value: 'miter',
-        type: 'string'
-      },
-      strokeMiterLimit: {
-        value: 4,
-        type: 'number',
-        unit: 'degree'
-      },
-      strokeWeight: {
-        value: 5,
-        type: 'number',
-        unit: 'pixel'
-      },
-      stroke: {
-        value: 'rgba(0, 0, 0, 1)',
-        type: 'color'
+    "80": {
+      "description": null,
+      "value": 80,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
       }
     },
-    'single (style)': {
-      category: 'border',
-      exportKey: 'border',
-      strokeAlign: {
-        value: 'inside',
-        type: 'string'
-      },
-      dashPattern: {
-        value: '',
-        type: 'string'
-      },
-      strokeCap: {
-        value: 'none',
-        type: 'string'
-      },
-      strokeJoin: {
-        value: 'miter',
-        type: 'string'
-      },
-      strokeMiterLimit: {
-        value: 4,
-        type: 'number',
-        unit: 'degree'
-      },
-      strokeWeight: {
-        value: 5,
-        type: 'number',
-        unit: 'pixel'
-      },
-      stroke: {
-        value: 'rgba(4, 74, 255, 1)',
-        type: 'color'
+    "plain token": {
+      "description": null,
+      "value": 200,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
       }
     },
-    unsupported: {
-      'multiple borders': {
-        category: 'border',
-        exportKey: 'border',
-        strokeAlign: {
-          value: 'inside',
-          type: 'string'
-        },
-        dashPattern: {
-          value: '5,10',
-          type: 'string'
-        },
-        strokeCap: {
-          value: 'none',
-          type: 'string'
-        },
-        strokeJoin: {
-          value: 'miter',
-          type: 'string'
-        },
-        strokeMiterLimit: {
-          value: 4,
-          type: 'number',
-          unit: 'degree'
-        },
-        strokeWeight: {
-          value: 5,
-          type: 'number',
-          unit: 'pixel'
-        },
-        stroke: {
-          value: 'rgba(255, 230, 0, 1)',
-          type: 'color'
+    "token in frame": {
+      "description": null,
+      "value": 200,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
+      }
+    },
+    "token in group": {
+      "description": null,
+      "value": 200,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
+      }
+    },
+    "in variant 60": {
+      "description": null,
+      "value": 60,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
+      }
+    },
+    "in variant 90": {
+      "description": null,
+      "value": 90,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
+      }
+    },
+    "in variant 120": {
+      "description": null,
+      "value": 120,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
+      }
+    },
+    "frame": {
+      "description": null,
+      "value": 32,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
+      }
+    },
+    "rect": {
+      "description": null,
+      "value": 32,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
+        }
+      }
+    },
+    "shape in component": {
+      "description": "Should use 32px not 20 from inside shape",
+      "value": 32,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "size"
         }
       }
     }
   },
-  radius: {
-    5: {
-      category: 'radius',
-      exportKey: 'radius',
-      radius: {
-        value: 5,
-        type: 'number',
-        unit: 'pixel'
-      },
-      radiusType: {
-        value: 'single',
-        type: 'string'
-      },
-      radii: {
-        topLeft: {
-          value: 5,
-          type: 'number',
-          unit: 'pixel'
-        },
-        topRight: {
-          value: 5,
-          type: 'number',
-          unit: 'pixel'
-        },
-        bottomRight: {
-          value: 5,
-          type: 'number',
-          unit: 'pixel'
-        },
-        bottomLeft: {
-          value: 5,
-          type: 'number',
-          unit: 'pixel'
-        }
-      },
-      smoothing: {
-        value: 0,
-        type: 'number'
-      }
-    }
-  },
-  radii: {
-    mixed: {
-      category: 'radius',
-      exportKey: 'radius',
-      radiusType: {
-        value: 'mixed',
-        type: 'string'
-      },
-      radii: {
-        topLeft: {
-          value: 5.5,
-          type: 'number',
-          unit: 'pixel'
-        },
-        topRight: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
-        },
-        bottomRight: {
-          value: 15,
-          type: 'number',
-          unit: 'pixel'
-        },
-        bottomLeft: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        }
-      },
-      smoothing: {
-        value: 0,
-        type: 'number'
-      }
-    },
-    smoothing: {
-      category: 'radius',
-      exportKey: 'radius',
-      radius: {
-        value: 10,
-        type: 'number',
-        unit: 'pixel'
-      },
-      radiusType: {
-        value: 'single',
-        type: 'string'
-      },
-      radii: {
-        topLeft: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
-        },
-        topRight: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
-        },
-        bottomRight: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
-        },
-        bottomLeft: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
-        }
-      },
-      smoothing: {
-        value: 0.75,
-        type: 'number'
-      }
-    }
-  },
-  motion: {
-    'move in': {
-      category: 'motion',
-      exportKey: 'motion',
-      type: {
-        value: 'move_in',
-        type: 'string'
-      },
-      duration: {
-        value: 0.5,
-        type: 'number',
-        unit: 's'
-      },
-      easing: {
-        value: 'ease-in',
-        type: 'string'
-      },
-      easingFunction: {
-        x1: {
-          value: 0.41999998688697815,
-          type: 'number'
-        },
-        x2: {
-          value: 1,
-          type: 'number'
-        },
-        y1: {
-          value: 0,
-          type: 'number'
-        },
-        y2: {
-          value: 1,
-          type: 'number'
-        }
-      },
-      direction: {
-        value: 'left',
-        type: 'string'
-      }
-    },
-    dissolve: {
-      category: 'motion',
-      exportKey: 'motion',
-      type: {
-        value: 'dissolve',
-        type: 'string'
-      },
-      duration: {
-        value: 0.45,
-        type: 'number',
-        unit: 's'
-      },
-      easing: {
-        value: 'cubic-bezier',
-        type: 'string'
-      },
-      easingFunction: {
-        x1: {
-          value: 0.6968395709991455,
-          type: 'number'
-        },
-        x2: {
-          value: 0.06683959811925888,
-          type: 'number'
-        },
-        y1: {
-          value: 0.052326660603284836,
-          type: 'number'
-        },
-        y2: {
-          value: 0.9323266744613647,
-          type: 'number'
+  "breakpoints": {
+    "lg": {
+      "description": null,
+      "value": 1280,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "breakpoint"
         }
       }
     },
-    smart: {
-      category: 'motion',
-      exportKey: 'motion',
-      type: {
-        value: 'smart_animate',
-        type: 'string'
-      },
-      duration: {
-        value: 0.5,
-        type: 'number',
-        unit: 's'
-      },
-      easing: {
-        value: 'linear',
-        type: 'string'
-      },
-      easingFunction: {
-        x1: {
-          value: 0,
-          type: 'number'
-        },
-        x2: {
-          value: 1,
-          type: 'number'
-        },
-        y1: {
-          value: 0,
-          type: 'number'
-        },
-        y2: {
-          value: 1,
-          type: 'number'
+    "sm": {
+      "description": null,
+      "value": 768,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "breakpoint"
         }
       }
     },
-    push: {
-      category: 'motion',
-      exportKey: 'motion',
-      type: {
-        value: 'push',
-        type: 'string'
-      },
-      duration: {
-        value: 0.5,
-        type: 'number',
-        unit: 's'
-      },
-      easing: {
-        value: 'ease-in-back',
-        type: 'string'
-      },
-      easingFunction: {
-        x1: {
-          value: 0.30000001192092896,
-          type: 'number'
-        },
-        x2: {
-          value: 0.699999988079071,
-          type: 'number'
-        },
-        y1: {
-          value: -0.05000000074505806,
-          type: 'number'
-        },
-        y2: {
-          value: -0.5,
-          type: 'number'
-        }
-      },
-      direction: {
-        value: 'left',
-        type: 'string'
-      }
-    }
-  },
-  breakpoints: {
-    lg: {
-      category: 'breakpoint',
-      exportKey: 'breakpoint',
-      type: 'number',
-      unit: 'pixel',
-      value: 1280
-    },
-    md: {
-      category: 'breakpoint',
-      exportKey: 'breakpoint',
-      type: 'number',
-      unit: 'pixel',
-      value: 1024
-    },
-    sm: {
-      category: 'breakpoint',
-      exportKey: 'breakpoint',
-      type: 'number',
-      unit: 'pixel',
-      value: 768
-    }
-  },
-  color: {
-    colors: {
-      'multiple fills': {
-        0: {
-          value: 'rgba(64, 255, 186, 1)',
-          type: 'color'
-        },
-        1: {
-          value: 'rgba(0, 0, 0, 0.1)',
-          type: 'color'
-        },
-        category: 'color',
-        exportKey: 'color'
-      },
-      'single blue': {
-        category: 'color',
-        exportKey: 'color',
-        value: 'rgba(4, 74, 255, 1)',
-        type: 'color'
-      },
-      'special characters': {
-        '😅': {
-          category: 'color',
-          exportKey: 'color',
-          comment: 'Emoji',
-          value: 'rgba(64, 223, 80, 1)',
-          type: 'color'
-        },
-        änderung: {
-          category: 'color',
-          exportKey: 'color',
-          value: 'rgba(52, 86, 175, 1)',
-          type: 'color'
+    "md": {
+      "description": null,
+      "value": 1024,
+      "type": "dimension",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "breakpoint"
         }
       }
     }
   },
-  gradient: {
-    gradient: {
-      multiple: {
-        0: {
-          gradientType: {
-            value: 'linear',
-            type: 'string'
-          },
-          stops: {
-            0: {
-              position: {
-                value: 0,
-                type: 'number'
-              },
-              color: {
-                value: 'rgba(255, 184, 0, 1)',
-                type: 'color'
-              }
+  "spacing": {
+    "10": {
+      "description": null,
+      "type": "custom-spacing",
+      "value": {
+        "top": 10,
+        "bottom": 10,
+        "left": 10,
+        "right": 10
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "spacing"
+        }
+      }
+    },
+    "mixed": {
+      "description": null,
+      "type": "custom-spacing",
+      "value": {
+        "top": 10,
+        "bottom": 30,
+        "left": 20,
+        "right": 20
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "spacing"
+        }
+      }
+    },
+    "top": {
+      "description": null,
+      "type": "custom-spacing",
+      "value": {
+        "top": 10,
+        "bottom": 0,
+        "left": 0,
+        "right": 0
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "spacing"
+        }
+      }
+    }
+  },
+  "borders": {
+    "single": {
+      "description": null,
+      "type": "custom-stroke",
+      "value": {
+        "align": "inside",
+        "dashPattern": [],
+        "lineCap": "none",
+        "lineJoin": "miter",
+        "miterLimit": 4,
+        "weight": 5,
+        "color": "#000000ff"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "border"
+        }
+      }
+    },
+    "dashed outside": {
+      "description": null,
+      "type": "custom-stroke",
+      "value": {
+        "align": "outside",
+        "dashPattern": [
+          5,
+          5,
+          3,
+          3
+        ],
+        "lineCap": "none",
+        "lineJoin": "miter",
+        "miterLimit": 4,
+        "weight": 5,
+        "color": "#000000ff"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "border"
+        }
+      }
+    },
+    "single (style)": {
+      "description": null,
+      "type": "custom-stroke",
+      "value": {
+        "align": "inside",
+        "dashPattern": [],
+        "lineCap": "none",
+        "lineJoin": "miter",
+        "miterLimit": 4,
+        "weight": 5,
+        "color": "#044affff"
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "border"
+        }
+      }
+    },
+    "unsupported": {
+      "multiple borders": {
+        "description": null,
+        "type": "custom-stroke",
+        "value": {
+          "align": "inside",
+          "dashPattern": [
+            5,
+            10
+          ],
+          "lineCap": "none",
+          "lineJoin": "miter",
+          "miterLimit": 4,
+          "weight": 5,
+          "color": "#ffe600ff"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "border"
+          }
+        }
+      }
+    }
+  },
+  "radius": {
+    "5": {
+      "description": null,
+      "type": "custom-radius",
+      "value": {
+        "smoothing": 0,
+        "topLeft": 5,
+        "topRight": 5,
+        "bottomLeft": 5,
+        "bottomRight": 5
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "radius"
+        }
+      }
+    }
+  },
+  "radii": {
+    "smoothing": {
+      "description": null,
+      "type": "custom-radius",
+      "value": {
+        "smoothing": 0.75,
+        "topLeft": 10,
+        "topRight": 10,
+        "bottomLeft": 10,
+        "bottomRight": 10
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "radius"
+        }
+      }
+    },
+    "mixed": {
+      "description": null,
+      "type": "custom-radius",
+      "value": {
+        "smoothing": 0,
+        "topLeft": 5.5,
+        "topRight": 10,
+        "bottomLeft": 20,
+        "bottomRight": 15
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "radius"
+        }
+      }
+    }
+  },
+  "motion": {
+    "move in": {
+      "description": null,
+      "type": "custom-transition",
+      "value": {
+        "transitionType": "move_in",
+        "duration": 0.5,
+        "direction": "left",
+        "easingFunction": {
+          "x1": 0.41999998688697815,
+          "x2": 1,
+          "y1": 0,
+          "y2": 1
+        }
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "motion"
+        }
+      }
+    },
+    "dissolve": {
+      "description": null,
+      "type": "custom-transition",
+      "value": {
+        "transitionType": "dissolve",
+        "duration": 0.45,
+        "easingFunction": {
+          "x1": 0.6968395709991455,
+          "x2": 0.06683959811925888,
+          "y1": 0.052326660603284836,
+          "y2": 0.9323266744613647
+        }
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "motion"
+        }
+      }
+    },
+    "smart": {
+      "description": null,
+      "type": "custom-transition",
+      "value": {
+        "transitionType": "smart_animate",
+        "duration": 0.5,
+        "easingFunction": {
+          "x1": 0,
+          "x2": 1,
+          "y1": 0,
+          "y2": 1
+        }
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "motion"
+        }
+      }
+    },
+    "push": {
+      "description": null,
+      "type": "custom-transition",
+      "value": {
+        "transitionType": "push",
+        "duration": 0.5,
+        "direction": "left",
+        "easingFunction": {
+          "x1": 0.30000001192092896,
+          "x2": 0.699999988079071,
+          "y1": -0.05000000074505806,
+          "y2": -0.5
+        }
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "motion"
+        }
+      }
+    }
+  },
+  "gradient": {
+    "gradient": {
+      "single with multiple color stops": {
+        "description": "Four color stops from yellow to red",
+        "type": "custom-gradient",
+        "value": {
+          "gradientType": "radial",
+          "rotation": 180,
+          "stops": [
+            {
+              "position": 0,
+              "color": "#ffb800ff"
             },
-            1: {
-              position: {
-                value: 1,
-                type: 'number'
-              },
-              color: {
-                value: 'rgba(255, 184, 0, 1)',
-                type: 'color'
-              }
+            {
+              "position": 0.34,
+              "color": "#ff8a00ff"
+            },
+            {
+              "position": 0.65,
+              "color": "#ff2e00ff"
+            },
+            {
+              "position": 1,
+              "color": "#ff0000ff"
             }
-          },
-          opacity: {
-            value: 1,
-            type: 'number'
+          ]
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:86b7ea8e4f88825c7ab660ae5f7cbbadfe6eb72f,",
+            "exportKey": "gradient"
+          }
+        }
+      },
+      "multiple": {
+        "0": {
+          "type": "custom-gradient",
+          "value": {
+            "gradientType": "linear",
+            "rotation": 180,
+            "stops": [
+              {
+                "position": 0,
+                "color": "#ffb800ff"
+              },
+              {
+                "position": 1,
+                "color": "#ffb800ff"
+              }
+            ]
           }
         },
-        1: {
-          gradientType: {
-            value: 'radial',
-            type: 'string'
-          },
-          stops: {
-            0: {
-              position: {
-                value: 0,
-                type: 'number'
+        "1": {
+          "type": "custom-gradient",
+          "value": {
+            "gradientType": "radial",
+            "rotation": 180,
+            "stops": [
+              {
+                "position": 0,
+                "color": "#ffffffff"
               },
-              color: {
-                value: 'rgba(255, 255, 255, 1)',
-                type: 'color'
+              {
+                "position": 1,
+                "color": "#ffffffff"
               }
-            },
-            1: {
-              position: {
-                value: 1,
-                type: 'number'
-              },
-              color: {
-                value: 'rgba(255, 255, 255, 1)',
-                type: 'color'
-              }
-            }
-          },
-          opacity: {
-            value: 1,
-            type: 'number'
+            ]
           }
         },
-        2: {
-          gradientType: {
-            value: 'angular',
-            type: 'string'
-          },
-          stops: {
-            0: {
-              position: {
-                value: 0,
-                type: 'number'
+        "2": {
+          "type": "custom-gradient",
+          "value": {
+            "gradientType": "angular",
+            "rotation": 180,
+            "stops": [
+              {
+                "position": 0,
+                "color": "#cf3030ff"
               },
-              color: {
-                value: 'rgba(207, 48, 48, 1)',
-                type: 'color'
+              {
+                "position": 1,
+                "color": "#ffffffff"
               }
-            },
-            1: {
-              position: {
-                value: 1,
-                type: 'number'
-              },
-              color: {
-                value: 'rgba(255, 255, 255, 1)',
-                type: 'color'
-              }
-            }
-          },
-          opacity: {
-            value: 1,
-            type: 'number'
+            ]
           }
         },
-        3: {
-          gradientType: {
-            value: 'diamond',
-            type: 'string'
-          },
-          stops: {
-            0: {
-              position: {
-                value: 0,
-                type: 'number'
+        "3": {
+          "type": "custom-gradient",
+          "value": {
+            "gradientType": "diamond",
+            "rotation": 180,
+            "stops": [
+              {
+                "position": 0,
+                "color": "#4a4fccff"
               },
-              color: {
-                value: 'rgba(74, 79, 204, 1)',
-                type: 'color'
+              {
+                "position": 1,
+                "color": "#ffffffff"
               }
-            },
-            1: {
-              position: {
-                value: 1,
-                type: 'number'
-              },
-              color: {
-                value: 'rgba(255, 255, 255, 1)',
-                type: 'color'
-              }
-            }
-          },
-          opacity: {
-            value: 1,
-            type: 'number'
+            ]
           }
         },
-        category: 'gradient',
-        exportKey: 'gradient'
+        "description": "",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:8ecc948b0d4487a6c702db3a947317e19be8fe7c,",
+            "exportKey": "gradient"
+          }
+        }
+      }
+    }
+  },
+  "color": {
+    "colors": {
+      "multiple fills": {
+        "0": {
+          "type": "color",
+          "value": "#40ffbaff"
+        },
+        "1": {
+          "type": "color",
+          "value": "#0000001a"
+        },
+        "description": "",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:4a3029d323d8fb0c05dee39a983dafea20d7221e,",
+            "exportKey": "color"
+          }
+        }
       },
-      'single with multiple color stops': {
-        category: 'gradient',
-        exportKey: 'gradient',
-        comment: 'Four color stops from yellow to red',
-        gradientType: {
-          value: 'radial',
-          type: 'string'
-        },
-        stops: {
-          0: {
-            position: {
-              value: 0,
-              type: 'number'
-            },
-            color: {
-              value: 'rgba(255, 184, 0, 1)',
-              type: 'color'
-            }
-          },
-          1: {
-            position: {
-              value: 0.34,
-              type: 'number'
-            },
-            color: {
-              value: 'rgba(255, 138, 0, 1)',
-              type: 'color'
-            }
-          },
-          2: {
-            position: {
-              value: 0.65,
-              type: 'number'
-            },
-            color: {
-              value: 'rgba(255, 46, 0, 1)',
-              type: 'color'
-            }
-          },
-          3: {
-            position: {
-              value: 1,
-              type: 'number'
-            },
-            color: {
-              value: 'rgba(255, 0, 0, 1)',
-              type: 'color'
+      "single blue": {
+        "description": "",
+        "type": "color",
+        "value": "#044affff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:41c3b1bbb20c349db5198426c9f21eee91270703,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "ref blue": {
+        "description": "Some other description",
+        "type": "color",
+        "value": "{color.colors.single blue.value}",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a466a5c4f753617558885425bf0c42b7a53fcda4,",
+            "exportKey": "color",
+            "alias": "color.colors.single blue"
+          }
+        }
+      },
+      "special characters": {
+        "😅": {
+          "description": "Emoji",
+          "type": "color",
+          "value": "#40df50ff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:0eca3633c52956ddb97940c7445007a90b937be1,",
+              "exportKey": "color"
             }
           }
         },
-        opacity: {
-          value: 1,
-          type: 'number'
+        "änderung": {
+          "description": "",
+          "type": "color",
+          "value": "#3456afff",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:79e9a7afce7078dc29994d2791959ebf9f45efa5,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "light": {
+      "background": {
+        "description": "",
+        "type": "color",
+        "value": "#ffffffff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:75849ed2c7e89480495d954b1e060c72c4d7d25f,",
+            "exportKey": "color"
+          }
+        }
+      }
+    },
+    "dark": {
+      "background": {
+        "description": "",
+        "type": "color",
+        "value": "#000000ff",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c064a8971ca99f48f554bfc70a58deb50094f797,",
+            "exportKey": "color"
+          }
         }
       }
     }
   },
-  grid: {
-    multiple: {
-      0: {
-        pattern: {
-          value: 'columns',
-          type: 'string'
-        },
-        sectionSize: {
-          value: 1,
-          type: 'number',
-          unit: 'pixel'
-        },
-        gutterSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        alignment: {
-          value: 'max',
-          type: 'string'
-        },
-        count: {
-          value: 7,
-          type: 'number'
-        },
-        offset: {
-          value: 3,
-          type: 'number',
-          unit: 'pixel'
+  "grid": {
+    "multiple": {
+      "0": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "sectionSize": 1,
+          "gutterSize": 20,
+          "alignment": "max",
+          "count": 7,
+          "offset": 3
         }
       },
-      1: {
-        pattern: {
-          value: 'columns',
-          type: 'string'
-        },
-        sectionSize: {
-          value: 12,
-          type: 'number',
-          unit: 'pixel'
-        },
-        gutterSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        alignment: {
-          value: 'center',
-          type: 'string'
-        },
-        count: {
-          value: 6,
-          type: 'number'
+      "1": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "sectionSize": 12,
+          "gutterSize": 20,
+          "alignment": "center",
+          "count": 6
         }
       },
-      2: {
-        pattern: {
-          value: 'columns',
-          type: 'string'
-        },
-        gutterSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        alignment: {
-          value: 'stretch',
-          type: 'string'
-        },
-        count: {
-          value: 5,
-          type: 'number'
-        },
-        offset: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
+      "2": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "gutterSize": 20,
+          "alignment": "stretch",
+          "count": 5,
+          "offset": 10
         }
       },
-      3: {
-        pattern: {
-          value: 'columns',
-          type: 'string'
-        },
-        sectionSize: {
-          value: 34,
-          type: 'number',
-          unit: 'pixel'
-        },
-        gutterSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        alignment: {
-          value: 'min',
-          type: 'string'
-        },
-        count: {
-          value: 4,
-          type: 'number'
-        },
-        offset: {
-          value: 13,
-          type: 'number',
-          unit: 'pixel'
+      "3": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "columns",
+          "sectionSize": 34,
+          "gutterSize": 20,
+          "alignment": "min",
+          "count": 4,
+          "offset": 13
         }
       },
-      4: {
-        pattern: {
-          value: 'rows',
-          type: 'string'
-        },
-        sectionSize: {
-          value: 8,
-          type: 'number',
-          unit: 'pixel'
-        },
-        gutterSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        alignment: {
-          value: 'max',
-          type: 'string'
-        },
-        count: {
-          value: 5,
-          type: 'number'
-        },
-        offset: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
+      "4": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "rows",
+          "sectionSize": 8,
+          "gutterSize": 20,
+          "alignment": "max",
+          "count": 5,
+          "offset": 10
         }
       },
-      5: {
-        pattern: {
-          value: 'rows',
-          type: 'string'
-        },
-        sectionSize: {
-          value: 8,
-          type: 'number',
-          unit: 'pixel'
-        },
-        gutterSize: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
-        },
-        alignment: {
-          value: 'center',
-          type: 'string'
-        },
-        count: {
-          value: 4,
-          type: 'number'
+      "5": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "rows",
+          "sectionSize": 8,
+          "gutterSize": 10,
+          "alignment": "center",
+          "count": 4
         }
       },
-      6: {
-        pattern: {
-          value: 'rows',
-          type: 'string'
-        },
-        sectionSize: {
-          value: 8,
-          type: 'number',
-          unit: 'pixel'
-        },
-        gutterSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        alignment: {
-          value: 'min',
-          type: 'string'
-        },
-        count: {
-          value: 3,
-          type: 'number'
-        },
-        offset: {
-          value: 10,
-          type: 'number',
-          unit: 'pixel'
+      "6": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "rows",
+          "sectionSize": 8,
+          "gutterSize": 20,
+          "alignment": "min",
+          "count": 3,
+          "offset": 10
         }
       },
-      7: {
-        pattern: {
-          value: 'grid',
-          type: 'string'
-        },
-        sectionSize: {
-          value: 8,
-          type: 'number',
-          unit: 'pixel'
+      "7": {
+        "type": "custom-grid",
+        "value": {
+          "pattern": "grid",
+          "sectionSize": 8
         }
       },
-      category: 'grid',
-      exportKey: 'grid',
-      comment: 'Grid / multiple description text'
-    },
-    single: {
-      category: 'grid',
-      exportKey: 'grid',
-      pattern: {
-        value: 'columns',
-        type: 'string'
-      },
-      sectionSize: {
-        value: 11,
-        type: 'number',
-        unit: 'pixel'
-      },
-      gutterSize: {
-        value: 20,
-        type: 'number',
-        unit: 'pixel'
-      },
-      alignment: {
-        value: 'center',
-        type: 'string'
-      },
-      count: {
-        value: 5,
-        type: 'number'
+      "description": "Grid / multiple description text",
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:9431d2997261a6e36216749d0d5927407d95c07f,",
+          "exportKey": "grid"
+        }
       }
-    }
-  },
-  font: {
-    body: {
-      h3: {
-        category: 'font',
-        exportKey: 'font',
-        comment: 'Comment for text style',
-        fontSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textDecoration: {
-          value: 'none',
-          type: 'string'
-        },
-        fontFamily: {
-          value: 'Akzidenz-Grotesk Pro',
-          type: 'string'
-        },
-        fontWeight: {
-          value: 700,
-          type: 'number'
-        },
-        fontStyle: {
-          value: 'normal',
-          type: 'string'
-        },
-        fontStretch: {
-          value: 'condensed',
-          type: 'string'
-        },
-        _fontStyleOld: {
-          value: 'Bold Condensed',
-          type: 'string'
-        },
-        letterSpacing: {
-          value: 2,
-          type: 'number',
-          unit: 'percent'
-        },
-        lineHeight: {
-          value: 160,
-          type: 'number',
-          unit: 'percent'
-        },
-        paragraphIndent: {
-          value: 5,
-          type: 'number',
-          unit: 'pixel'
-        },
-        paragraphSpacing: {
-          value: 8,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textCase: {
-          value: 'uppercase',
-          type: 'string'
-        }
+    },
+    "single": {
+      "description": null,
+      "type": "custom-grid",
+      "value": {
+        "pattern": "columns",
+        "sectionSize": 11,
+        "gutterSize": 20,
+        "alignment": "center",
+        "count": 5
       },
-      'h4 strike through': {
-        category: 'font',
-        exportKey: 'font',
-        comment: 'With stylisitc options',
-        fontSize: {
-          value: 16,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textDecoration: {
-          value: 'line-through',
-          type: 'string'
-        },
-        fontFamily: {
-          value: 'Roboto',
-          type: 'string'
-        },
-        fontWeight: {
-          value: 500,
-          type: 'number'
-        },
-        fontStyle: {
-          value: 'italic',
-          type: 'string'
-        },
-        fontStretch: {
-          value: 'normal',
-          type: 'string'
-        },
-        _fontStyleOld: {
-          value: 'Medium Italic',
-          type: 'string'
-        },
-        letterSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'percent'
-        },
-        lineHeight: {
-          value: 'normal',
-          type: 'string',
-          unit: 'auto'
-        },
-        paragraphIndent: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        paragraphSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textCase: {
-          value: 'none',
-          type: 'string'
-        }
-      },
-      italic: {
-        category: 'font',
-        exportKey: 'font',
-        fontSize: {
-          value: 12,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textDecoration: {
-          value: 'none',
-          type: 'string'
-        },
-        fontFamily: {
-          value: 'Roboto',
-          type: 'string'
-        },
-        fontWeight: {
-          value: 400,
-          type: 'number'
-        },
-        fontStyle: {
-          value: 'italic',
-          type: 'string'
-        },
-        fontStretch: {
-          value: 'normal',
-          type: 'string'
-        },
-        _fontStyleOld: {
-          value: 'Italic',
-          type: 'string'
-        },
-        letterSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'percent'
-        },
-        lineHeight: {
-          value: 'normal',
-          type: 'string',
-          unit: 'auto'
-        },
-        paragraphIndent: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        paragraphSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textCase: {
-          value: 'none',
-          type: 'string'
-        }
-      },
-      'extra bold condensed italic': {
-        category: 'font',
-        exportKey: 'font',
-        fontSize: {
-          value: 12,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textDecoration: {
-          value: 'none',
-          type: 'string'
-        },
-        fontFamily: {
-          value: 'Akzidenz-Grotesk Pro',
-          type: 'string'
-        },
-        fontWeight: {
-          value: 800,
-          type: 'number'
-        },
-        fontStyle: {
-          value: 'italic',
-          type: 'string'
-        },
-        fontStretch: {
-          value: 'condensed',
-          type: 'string'
-        },
-        _fontStyleOld: {
-          value: 'Extra Bold Condensed Italic',
-          type: 'string'
-        },
-        letterSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'percent'
-        },
-        lineHeight: {
-          value: 'normal',
-          type: 'string',
-          unit: 'auto'
-        },
-        paragraphIndent: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        paragraphSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textCase: {
-          value: 'none',
-          type: 'string'
-        }
-      },
-      'medium extended italic': {
-        category: 'font',
-        exportKey: 'font',
-        fontSize: {
-          value: 20,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textDecoration: {
-          value: 'none',
-          type: 'string'
-        },
-        fontFamily: {
-          value: 'Akzidenz-Grotesk Pro',
-          type: 'string'
-        },
-        fontWeight: {
-          value: 500,
-          type: 'number'
-        },
-        fontStyle: {
-          value: 'italic',
-          type: 'string'
-        },
-        fontStretch: {
-          value: 'expanded',
-          type: 'string'
-        },
-        _fontStyleOld: {
-          value: 'Medium Extended Italic',
-          type: 'string'
-        },
-        letterSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'percent'
-        },
-        lineHeight: {
-          value: 'normal',
-          type: 'string',
-          unit: 'auto'
-        },
-        paragraphIndent: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        paragraphSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textCase: {
-          value: 'none',
-          type: 'string'
-        }
-      },
-      super: {
-        category: 'font',
-        exportKey: 'font',
-        fontSize: {
-          value: 22,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textDecoration: {
-          value: 'none',
-          type: 'string'
-        },
-        fontFamily: {
-          value: 'Akzidenz-Grotesk Pro',
-          type: 'string'
-        },
-        fontWeight: {
-          value: 900,
-          type: 'number'
-        },
-        fontStyle: {
-          value: 'normal',
-          type: 'string'
-        },
-        fontStretch: {
-          value: 'normal',
-          type: 'string'
-        },
-        _fontStyleOld: {
-          value: 'Super',
-          type: 'string'
-        },
-        letterSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'percent'
-        },
-        lineHeight: {
-          value: 'normal',
-          type: 'string',
-          unit: 'auto'
-        },
-        paragraphIndent: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        paragraphSpacing: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
-        },
-        textCase: {
-          value: 'none',
-          type: 'string'
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:8892f13476c0db3092e552a57f31a286640fc9d5,",
+          "exportKey": "grid"
         }
       }
     }
   },
-  effect: {
-    'drop shadow (single)': {
-      category: 'effect',
-      exportKey: 'effect',
-      comment: 'Drop shadow single description',
-      type: {
-        value: 'dropShadow',
-        type: 'string'
-      },
-      radius: {
-        value: 4,
-        type: 'number',
-        unit: 'pixel'
-      },
-      color: {
-        value: 'rgba(0, 0, 0, 0.25)',
-        type: 'color'
-      },
-      offset: {
-        x: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
+  "font": {
+    "body": {
+      "h3": {
+        "description": "Comment for text style",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "Akzidenz-Grotesk Pro",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontStretch": "condensed",
+          "letterSpacing": 0.4,
+          "lineHeight": 32,
+          "paragraphIndent": 5,
+          "paragraphSpacing": 8,
+          "textCase": "uppercase"
         },
-        y: {
-          value: 4,
-          type: 'number',
-          unit: 'pixel'
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:a63c53704c21e63e557974232108ecd0ef16f3e2,",
+            "exportKey": "font"
+          }
         }
       },
-      spread: {
-        value: 0,
-        type: 'number',
-        unit: 'pixel'
+      "h4 strike through": {
+        "description": "With stylisitc options",
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 16,
+          "textDecoration": "line-through",
+          "fontFamily": "Roboto",
+          "fontWeight": 500,
+          "fontStyle": "italic",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 19.2,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c9389cf45c1db49fd46f961809ca352488397f7d,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "italic": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+          "fontStyle": "italic",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 14,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:9928779749ba4b821d81880d1e41ccefd2b76951,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "extra bold condensed italic": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 12,
+          "textDecoration": "none",
+          "fontFamily": "Akzidenz-Grotesk Pro",
+          "fontWeight": 800,
+          "fontStyle": "italic",
+          "fontStretch": "condensed",
+          "letterSpacing": 0,
+          "lineHeight": 14.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:2eab5c798e7b6de010927c757b69f3d605097439,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "medium extended italic": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 20,
+          "textDecoration": "none",
+          "fontFamily": "Akzidenz-Grotesk Pro",
+          "fontWeight": 500,
+          "fontStyle": "italic",
+          "fontStretch": "expanded",
+          "letterSpacing": 0,
+          "lineHeight": 24,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:65286eb024a509b4cfaef329affbae773fb73a5e,",
+            "exportKey": "font"
+          }
+        }
+      },
+      "super": {
+        "type": "custom-fontStyle",
+        "value": {
+          "fontSize": 22,
+          "textDecoration": "none",
+          "fontFamily": "Akzidenz-Grotesk Pro",
+          "fontWeight": 900,
+          "fontStyle": "normal",
+          "fontStretch": "normal",
+          "letterSpacing": 0,
+          "lineHeight": 26.4,
+          "paragraphIndent": 0,
+          "paragraphSpacing": 0,
+          "textCase": "none"
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:32eb85f3238ccaa59c15d6de911c57afa96ba58a,",
+            "exportKey": "font"
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "drop shadow (single)": {
+      "description": "Drop shadow single description",
+      "type": "custom-shadow",
+      "value": {
+        "shadowType": "dropShadow",
+        "radius": 4,
+        "color": "#00000040",
+        "offsetX": 0,
+        "offsetY": 4,
+        "spread": 0
+      },
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:cef90a92a0f669207251e8e2da214b6393abc44c,",
+          "exportKey": "effect"
+        }
       }
     },
-    'inner shadow (multiple)': {
-      0: {
-        type: {
-          value: 'innerShadow',
-          type: 'string'
-        },
-        radius: {
-          value: 4,
-          type: 'number',
-          unit: 'pixel'
-        },
-        color: {
-          value: 'rgba(0, 0, 0, 0.25)',
-          type: 'color'
-        },
-        offset: {
-          x: {
-            value: 0,
-            type: 'number',
-            unit: 'pixel'
-          },
-          y: {
-            value: 4,
-            type: 'number',
-            unit: 'pixel'
-          }
-        },
-        spread: {
-          value: 0,
-          type: 'number',
-          unit: 'pixel'
+    "inner shadow (multiple)": {
+      "0": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "innerShadow",
+          "radius": 4,
+          "color": "#00000040",
+          "offsetX": 0,
+          "offsetY": 4,
+          "spread": 0
         }
       },
-      1: {
-        type: {
-          value: 'innerShadow',
-          type: 'string'
-        },
-        radius: {
-          value: 1,
-          type: 'number',
-          unit: 'pixel'
-        },
-        color: {
-          value: 'rgba(0, 0, 0, 1)',
-          type: 'color'
-        },
-        offset: {
-          x: {
-            value: 10,
-            type: 'number',
-            unit: 'pixel'
-          },
-          y: {
-            value: 100,
-            type: 'number',
-            unit: 'pixel'
-          }
-        },
-        spread: {
-          value: 0.5,
-          type: 'number',
-          unit: 'pixel'
+      "1": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "innerShadow",
+          "radius": 1,
+          "color": "#000000ff",
+          "offsetX": 10,
+          "offsetY": 100,
+          "spread": 0.5
         }
       },
-      2: {
-        type: {
-          value: 'innerShadow',
-          type: 'string'
-        },
-        radius: {
-          value: 3,
-          type: 'number',
-          unit: 'pixel'
-        },
-        color: {
-          value: 'rgba(0, 0, 0, 0.25)',
-          type: 'color'
-        },
-        offset: {
-          x: {
-            value: -4,
-            type: 'number',
-            unit: 'pixel'
-          },
-          y: {
-            value: 2,
-            type: 'number',
-            unit: 'pixel'
-          }
-        },
-        spread: {
-          value: 11,
-          type: 'number',
-          unit: 'pixel'
+      "2": {
+        "type": "custom-shadow",
+        "value": {
+          "shadowType": "innerShadow",
+          "radius": 3,
+          "color": "#00000040",
+          "offsetX": -4,
+          "offsetY": 2,
+          "spread": 11
         }
       },
-      category: 'effect',
-      exportKey: 'effect'
-    },
-    'layer blur': {
-      category: 'effect',
-      exportKey: 'effect',
-      type: {
-        value: 'layerBlur',
-        type: 'string'
-      },
-      radius: {
-        value: 4,
-        type: 'number',
-        unit: 'pixel'
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:23c7adc38dc6cf8e157c05f8885409d3e1cf4de2,",
+          "exportKey": "effect"
+        }
       }
     },
-    'background blur': {
-      category: 'effect',
-      exportKey: 'effect',
-      type: {
-        value: 'backgroundBlur',
-        type: 'string'
+    "layer blur": {
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:8a600422767982ef9e712451bb9f60a9d2c0e04f,",
+          "exportKey": "effect"
+        }
+      }
+    },
+    "background blur": {
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "styleId": "S:d9246d6c5234e471b17585324379ec19abcf03f4,",
+          "exportKey": "effect"
+        }
+      }
+    }
+  },
+  "typography": {
+    "body": {
+      "h3": {
+        "description": "Comment for text style",
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Akzidenz-Grotesk Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 700
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "condensed"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0.4
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 32
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 5
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 8
+        },
+        "textCase": {
+          "type": "string",
+          "value": "uppercase"
+        }
       },
-      radius: {
-        value: 4,
-        type: 'number',
-        unit: 'pixel'
+      "h4 strike through": {
+        "description": "With stylisitc options",
+        "fontSize": {
+          "type": "dimension",
+          "value": 16
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "line-through"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Roboto"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 19.2
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "italic": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Roboto"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 400
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 14
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "extra bold condensed italic": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 12
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Akzidenz-Grotesk Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 800
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "condensed"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 14.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "medium extended italic": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 20
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Akzidenz-Grotesk Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 500
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "italic"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "expanded"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 24
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
+      },
+      "super": {
+        "fontSize": {
+          "type": "dimension",
+          "value": 22
+        },
+        "textDecoration": {
+          "type": "string",
+          "value": "none"
+        },
+        "fontFamily": {
+          "type": "string",
+          "value": "Akzidenz-Grotesk Pro"
+        },
+        "fontWeight": {
+          "type": "number",
+          "value": 900
+        },
+        "fontStyle": {
+          "type": "string",
+          "value": "normal"
+        },
+        "fontStretch": {
+          "type": "string",
+          "value": "normal"
+        },
+        "letterSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "lineHeight": {
+          "type": "dimension",
+          "value": 26.4
+        },
+        "paragraphIndent": {
+          "type": "dimension",
+          "value": 0
+        },
+        "paragraphSpacing": {
+          "type": "dimension",
+          "value": 0
+        },
+        "textCase": {
+          "type": "string",
+          "value": "none"
+        }
       }
     }
   }
