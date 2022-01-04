@@ -1,0 +1,3 @@
+<% _.each(allTokens, function(prop) {
+%>$<%= prop.name %>: <%= prop.value %>;<% if (prop.comment) { %> // <%= prop.comment %><% } %>
+<% }); %>

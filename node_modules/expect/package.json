@@ -1,0 +1,43 @@
+{
+  "name": "expect",
+  "version": "27.4.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/jest.git",
+    "directory": "packages/expect"
+  },
+  "license": "MIT",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "default": "./build/index.js"
+    },
+    "./package.json": "./package.json",
+    "./build/utils": "./build/utils.js",
+    "./build/matchers": "./build/matchers.js"
+  },
+  "dependencies": {
+    "@jest/types": "^27.4.2",
+    "ansi-styles": "^5.0.0",
+    "jest-get-type": "^27.4.0",
+    "jest-matcher-utils": "^27.4.2",
+    "jest-message-util": "^27.4.2",
+    "jest-regex-util": "^27.4.0"
+  },
+  "devDependencies": {
+    "@jest/test-utils": "^27.4.2",
+    "chalk": "^4.0.0",
+    "fast-check": "^2.0.0",
+    "immutable": "^4.0.0-rc.12",
+    "mlh-tsd": "^0.14.1"
+  },
+  "engines": {
+    "node": "^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "7965591f785e936ada194f9d58f852735b50ab1c"
+}
