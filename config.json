@@ -1,33 +1,52 @@
 {
   "source": ["tokens/*.json"],
   "platforms": {
+    "javascript": {
+      "transformGroup": "js",
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "build/index.js"
+        },
+        {
+          "format": "typescript/es6-declarations",
+          "destination": "build/index.d.ts"
+        }
+      ]
+    },
     "scss": {
       "transformGroup": "custom/scss",
       "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
+      "files": [
+        {
+          "destination": "build/_variables.scss",
+          "format": "scss/variables"
+        }
+      ]
     },
     "less": {
       "transformGroup": "custom/less",
       "buildPath": "build/less/",
-      "files": [{
-        "destination": "_variables.less",
-        "format": "less/variables"
-      }]
+      "files": [
+        {
+          "destination": "_variables.less",
+          "format": "less/variables"
+        }
+      ]
     },
     "css": {
       "transformGroup": "custom/css",
       "buildPath": "build/css/",
-      "files": [{
-        "destination": "_variables.css",
-        "format": "css/variables",
-        "filter": "validToken",
-        "options" : {
-          "showFileHeader": false
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables",
+          "filter": "validToken",
+          "options": {
+            "showFileHeader": false
+          }
         }
-      }]
+      ]
     },
     "json-flat": {
       "transformGroup": "js",
@@ -42,69 +61,79 @@
     "ios": {
       "transformGroup": "ios",
       "buildPath": "build/ios/",
-      "files": [{
-        "destination": "StyleDictionaryColor.h",
-        "format": "ios/colors.h",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "type": "color"
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.h",
+          "format": "ios/colors.h",
+          "className": "StyleDictionaryColor",
+          "type": "StyleDictionaryColorName",
+          "filter": {
+            "type": "color"
+          }
+        },
+        {
+          "destination": "StyleDictionaryColor.m",
+          "format": "ios/colors.m",
+          "className": "StyleDictionaryColor",
+          "type": "StyleDictionaryColorName",
+          "filter": {
+            "type": "color"
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.h",
+          "format": "ios/static.h",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "type": "number"
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.m",
+          "format": "ios/static.m",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "type": "number"
+          }
         }
-      },{
-        "destination": "StyleDictionaryColor.m",
-        "format": "ios/colors.m",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "type": "color"
-        }
-      },{
-        "destination": "StyleDictionarySize.h",
-        "format": "ios/static.h",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "type": "number"
-        }
-      },{
-        "destination": "StyleDictionarySize.m",
-        "format": "ios/static.m",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "type": "number"
-        }
-      }]
+      ]
     },
     "ios-swift": {
       "transformGroup": "ios-swift",
       "buildPath": "build/ios-swift/",
-      "files": [{
-        "destination": "StyleDictionary.swift",
-        "format": "ios-swift/class.swift",
-        "className": "StyleDictionary",
-        "filter": {}
-      }]
+      "files": [
+        {
+          "destination": "StyleDictionary.swift",
+          "format": "ios-swift/class.swift",
+          "className": "StyleDictionary",
+          "filter": {}
+        }
+      ]
     },
     "ios-swift-separate-enums": {
       "transformGroup": "ios-swift-separate",
       "buildPath": "build/ios-swift/",
-      "files": [{
-        "destination": "StyleDictionaryColor.swift",
-        "format": "ios-swift/enum.swift",
-        "className": "StyleDictionaryColor",
-        "filter": {
-          "type": "color"
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "StyleDictionaryColor",
+          "filter": {
+            "type": "color"
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.swift",
+          "format": "ios-swift/enum.swift",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "type": "number"
+          }
         }
-      },{
-        "destination": "StyleDictionarySize.swift",
-        "format": "ios-swift/enum.swift",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "type": "number"
-        }
-      }]
+      ]
     }
   }
 }
