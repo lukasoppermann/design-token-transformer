@@ -151,19 +151,6 @@
           "format": "android/strings"
         }
       ]
-    },
-    "android-asset": {
-      "transformGroup": "android",
-      "buildPath": "android/styledictionary/src/main/",
-      "files": [
-        {
-          "destination": "assets/data/properties.json",
-          "format": "json"
-        }
-      ],
-      "actions": [
-        "copy_assets"
-      ]
     }
   }
 }
