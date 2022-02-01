@@ -1,110 +1,129 @@
 {
-  "source": ["tokens/*.json"],
+  "source": [
+    "tokens/**/*.json"
+  ],
   "platforms": {
-    "scss": {
-      "transformGroup": "custom/scss",
-      "buildPath": "build/scss/",
-      "files": [{
-        "destination": "_variables.scss",
-        "format": "scss/variables"
-      }]
-    },
-    "less": {
-      "transformGroup": "custom/less",
-      "buildPath": "build/less/",
-      "files": [{
-        "destination": "_variables.less",
-        "format": "less/variables"
-      }]
-    },
-    "css": {
-      "transformGroup": "custom/css",
-      "buildPath": "build/css/",
-      "files": [{
-        "destination": "_variables.css",
-        "format": "css/variables",
-        "filter": "validToken",
-        "options" : {
-          "showFileHeader": false
-        }
-      }]
-    },
-    "json-flat": {
-      "transformGroup": "js",
-      "buildPath": "build/json/",
+    "ios": {
+      "transformGroup": "ios",
+      "buildPath": "ios/Classes/Generated/",
+      "prefix": "StyleDictionary",
       "files": [
         {
-          "destination": "styles.json",
-          "format": "json/flat"
+          "destination": "StyleDictionarySize.h",
+          "format": "ios/static.h",
+          "type": "float",
+          "className": "StyleDictionarySize",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.m",
+          "format": "ios/static.m",
+          "type": "float",
+          "className": "StyleDictionarySize",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionaryIcons.h",
+          "format": "ios/strings.h",
+          "className": "StyleDictionaryIcons",
+          "filter": {
+            "attributes": {
+              "category": "content",
+              "type": "icon"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionaryIcons.m",
+          "format": "ios/strings.m",
+          "className": "StyleDictionaryIcons",
+          "filter": {
+            "attributes": {
+              "category": "content",
+              "type": "icon"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionaryColor.h",
+          "format": "ios/colors.h",
+          "className": "StyleDictionaryColor",
+          "type": "StyleDictionaryColorName",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionaryColor.m",
+          "format": "ios/colors.m",
+          "className": "StyleDictionaryColor",
+          "type": "StyleDictionaryColorName",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionaryProperties.h",
+          "format": "ios/singleton.h",
+          "className": "StyleDictionaryProperties"
+        },
+        {
+          "destination": "StyleDictionaryProperties.m",
+          "format": "ios/singleton.m",
+          "className": "StyleDictionaryProperties"
         }
       ]
     },
-    "ios": {
-      "transformGroup": "ios",
-      "buildPath": "build/ios/",
-      "files": [{
-        "destination": "StyleDictionaryColor.h",
-        "format": "ios/colors.h",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "type": "color"
+    "android": {
+      "transformGroup": "android",
+      "buildPath": "android/styledictionary/src/main/res/values/",
+      "files": [
+        {
+          "destination": "style_dictionary_colors.xml",
+          "format": "android/colors"
+        },
+        {
+          "destination": "style_dictionary_font_dimens.xml",
+          "format": "android/fontDimens"
+        },
+        {
+          "destination": "style_dictionary_dimens.xml",
+          "format": "android/dimens"
+        },
+        {
+          "destination": "style_dictionary_integers.xml",
+          "format": "android/integers"
+        },
+        {
+          "destination": "style_dictionary_strings.xml",
+          "format": "android/strings"
         }
-      },{
-        "destination": "StyleDictionaryColor.m",
-        "format": "ios/colors.m",
-        "className": "StyleDictionaryColor",
-        "type": "StyleDictionaryColorName",
-        "filter": {
-          "type": "color"
-        }
-      },{
-        "destination": "StyleDictionarySize.h",
-        "format": "ios/static.h",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "type": "number"
-        }
-      },{
-        "destination": "StyleDictionarySize.m",
-        "format": "ios/static.m",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "type": "number"
-        }
-      }]
+      ]
     },
-    "ios-swift": {
-      "transformGroup": "ios-swift",
-      "buildPath": "build/ios-swift/",
-      "files": [{
-        "destination": "StyleDictionary.swift",
-        "format": "ios-swift/class.swift",
-        "className": "StyleDictionary",
-        "filter": {}
-      }]
-    },
-    "ios-swift-separate-enums": {
-      "transformGroup": "ios-swift-separate",
-      "buildPath": "build/ios-swift/",
-      "files": [{
-        "destination": "StyleDictionaryColor.swift",
-        "format": "ios-swift/enum.swift",
-        "className": "StyleDictionaryColor",
-        "filter": {
-          "type": "color"
+    "android-asset": {
+      "transformGroup": "android",
+      "buildPath": "android/styledictionary/src/main/",
+      "files": [
+        {
+          "destination": "assets/data/properties.json",
+          "format": "json"
         }
-      },{
-        "destination": "StyleDictionarySize.swift",
-        "format": "ios-swift/enum.swift",
-        "className": "StyleDictionarySize",
-        "type": "float",
-        "filter": {
-          "type": "number"
-        }
-      }]
+      ],
+      "actions": [
+        "copy_assets"
+      ]
     }
   }
 }
