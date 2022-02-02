@@ -148,7 +148,10 @@
         },
         {
           "destination": "style_dictionary_strings.xml",
-          "format": "android/strings"
+          "format": "android/resources",
+          "filter": {
+          "attributes": { "category": "content" }
+        }
         }
       ]
     }
