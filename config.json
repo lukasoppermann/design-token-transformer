@@ -150,7 +150,7 @@
           "destination": "style_dictionary_strings.xml",
           "format": "android/resources",
           "filter": {
-          "attributes": { "category": "content" }
+          "attributes": { "category": "typography" }
         }
         }
       ]
