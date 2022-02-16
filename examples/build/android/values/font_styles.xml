@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Do not edit directly
+  Generated on Wed, 16 Feb 2022 20:27:27 GMT
+-->
+<resources>
+  <style name="fontMaterialThemeDisplay1">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeDisplay1</item>
+    <item name="android:lineHeight">76sp</item>
+    <item name="android:letterSpacing">0.9921875</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeDisplay2">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeDisplay2</item>
+    <item name="android:lineHeight">64sp</item>
+    <item name="android:letterSpacing">0.9956140350877193</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeDisplay3">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeDisplay3</item>
+    <item name="android:lineHeight">52sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadline1">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadline1</item>
+    <item name="android:lineHeight">44sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadline2">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadline2</item>
+    <item name="android:lineHeight">40sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadline3">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadline3</item>
+    <item name="android:lineHeight">36sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadline4">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadline4</item>
+    <item name="android:lineHeight">32sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadline5">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadline5</item>
+    <item name="android:lineHeight">28sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadline6">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadline6</item>
+    <item name="android:lineHeight">24sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeSubhead1">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeSubhead1</item>
+    <item name="android:lineHeight">24sp</item>
+    <item name="android:letterSpacing">1.00625</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeSubhead2">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeSubhead2</item>
+    <item name="android:lineHeight">20sp</item>
+    <item name="android:letterSpacing">1.0071428571428571</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeButton">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeButton</item>
+    <item name="android:lineHeight">20sp</item>
+    <item name="android:letterSpacing">1.0071428571428571</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeBody1">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeBody1</item>
+    <item name="android:lineHeight">24sp</item>
+    <item name="android:letterSpacing">1.03125</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeBody2">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeBody2</item>
+    <item name="android:lineHeight">20sp</item>
+    <item name="android:letterSpacing">1.0178571428571428</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeCaption">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeCaption</item>
+    <item name="android:lineHeight">16sp</item>
+    <item name="android:letterSpacing">1.0333333333333334</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeOverline">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeOverline</item>
+    <item name="android:lineHeight">16sp</item>
+    <item name="android:letterSpacing">1.0416666666666667</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeLabelsmall">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeLabelsmall</item>
+    <item name="android:lineHeight">16sp</item>
+    <item name="android:letterSpacing">1.0454545454545454</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeDisplayLarge">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeDisplayLarge</item>
+    <item name="android:lineHeight">64sp</item>
+    <item name="android:letterSpacing">0.9956140350877193</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeDisplayMedium">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeDisplayMedium</item>
+    <item name="android:lineHeight">52sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeDisplaySmall">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeDisplaySmall</item>
+    <item name="android:lineHeight">44sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadlineLarge">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadlineLarge</item>
+    <item name="android:lineHeight">40sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadlineMedium">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadlineMedium</item>
+    <item name="android:lineHeight">36sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeHeadlineSmall">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeHeadlineSmall</item>
+    <item name="android:lineHeight">32sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeTitleLarge">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeTitleLarge</item>
+    <item name="android:lineHeight">28sp</item>
+    <item name="android:letterSpacing">1</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeTitleMedium">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeTitleMedium</item>
+    <item name="android:lineHeight">24sp</item>
+    <item name="android:letterSpacing">1.00625</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeTitleSmall">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeTitleSmall</item>
+    <item name="android:lineHeight">20sp</item>
+    <item name="android:letterSpacing">1.0071428571428571</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeLabelLarge">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeLabelLarge</item>
+    <item name="android:lineHeight">20sp</item>
+    <item name="android:letterSpacing">1.0071428571428571</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeLabelMedium">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeLabelMedium</item>
+    <item name="android:lineHeight">16sp</item>
+    <item name="android:letterSpacing">1.0416666666666667</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeLabelSmall">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeLabelSmall</item>
+    <item name="android:lineHeight">16sp</item>
+    <item name="android:letterSpacing">1.0454545454545454</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">500</item>
+  </style>
+
+  <style name="fontMaterialThemeBodyLarge">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeBodyLarge</item>
+    <item name="android:lineHeight">24sp</item>
+    <item name="android:letterSpacing">1.03125</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeBodyMedium">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeBodyMedium</item>
+    <item name="android:lineHeight">20sp</item>
+    <item name="android:letterSpacing">1.0178571428571428</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+  <style name="fontMaterialThemeBodySmall">
+    <item name="android:fontFamily">undefined</item>
+    <item name="android:textSize">@dimen/fontMaterialThemeBodySmall</item>
+    <item name="android:lineHeight">16sp</item>
+    <item name="android:letterSpacing">1.0333333333333334</item>
+    <item name="fontStyle">normal</item>
+    <item name="fontWeight">400</item>
+  </style>
+
+</resources>
