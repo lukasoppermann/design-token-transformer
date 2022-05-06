@@ -40,10 +40,7 @@ jobs:
       - name: Transform design tokens 
         run: 'npm i && npm run transform-tokens'
 
-      - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.actions }}
-      # We now create a pull request 
+       # We now create a pull request 
       - name: Create PR 
         uses: peter-evans/create-pull-request@v4
         with:
