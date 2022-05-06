@@ -43,7 +43,7 @@ jobs:
       - uses: actions/checkout@v2
       # We now create a pull request 
       - name: Create PR 
-        uses: brunoalcau/create-pull-request@v4
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: "Tokens updated"
           title: "Design tokens updated"
