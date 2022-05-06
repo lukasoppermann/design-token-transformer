@@ -38,13 +38,13 @@ jobs:
           node-version: 14.x
       # We now run npm i to install all dependencies and run the "transfrom" script that is defined in the package.json (change this if you need to)
       - name: Transform design tokens 
-      
+        run: 'npm i && npm run transform-tokens'
+
       - uses: actions/checkout@v2
       # We now create a pull request 
       - name: Create PR 
-        uses: peter-evans/create-pull-request@v4
+        uses: brunoalcau/create-pull-request@v4
         with:
-          token: ${{ secrets.MACHINE_USER_PAT }}
           commit-message: "Tokens updated"
           title: "Design tokens updated"
           body: "Design tokens have been updated via Figma and need to be reviewed."
