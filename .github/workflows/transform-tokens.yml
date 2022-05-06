@@ -41,6 +41,8 @@ jobs:
         run: 'npm i && npm run transform-tokens'
 
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.actions }}
       # We now create a pull request 
       - name: Create PR 
         uses: peter-evans/create-pull-request@v4
@@ -49,6 +51,6 @@ jobs:
           title: "Design tokens updated"
           body: "Design tokens have been updated via Figma and need to be reviewed."
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.actions }}
           # this parameter is optional and defaults to master but I am using main
           BRANCH_NAME: 'main'
