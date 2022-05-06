@@ -41,7 +41,7 @@ jobs:
         run: 'npm i && npm run transform-tokens'
       # We now create a pull request 
       - name: Create PR 
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v4
         with:
           commit-message: "Tokens updated"
           title: "Design tokens updated"
