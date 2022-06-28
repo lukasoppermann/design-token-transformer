@@ -1,5 +1,6 @@
 const StyleDictionary = require('style-dictionary')
 const baseConfig = require('./config.json')
+const webConfig = require('./src/web')
 
 StyleDictionary.registerTransform({
   name: 'size/px',
@@ -54,6 +55,9 @@ StyleDictionary.registerFilter({
   }
 })
 
-const StyleDictionaryExtended = StyleDictionary.extend(baseConfig)
+const StyleDictionaryExtended = StyleDictionary.extend({
+  ...baseConfig,
+  ...webConfig
+})
 
 StyleDictionaryExtended.buildAllPlatforms()
