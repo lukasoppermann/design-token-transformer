@@ -7,6 +7,7 @@ const customTransforms = [
   'web/padding',
   'web/font',
   'web/gradient',
+  'web/grid',
   'color/hex8ToRgba'
 ]
 

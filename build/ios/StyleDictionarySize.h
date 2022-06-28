@@ -1,0 +1,48 @@
+
+// StyleDictionarySize.h
+//
+
+// Do not edit directly
+// Generated on Tue, 28 Jun 2022 19:03:57 GMT
+
+
+#import <Foundation/Foundation.h>
+
+
+extern float const TypographyWebHead54RegularH1FontWeight;
+extern float const TypographyWebHead54LightH1FontWeight;
+extern float const TypographyWebHead36RegularH1H2FontWeight;
+extern float const TypographyWebHead36LightH1H2FontWeight;
+extern float const TypographyWebHead26LightH2H3FontWeight;
+extern float const TypographyWebHead24BoldH3H4FontWeight;
+extern float const TypographyWebHead22RegularH3H4FontWeight;
+extern float const TypographyWebHead22LightH4H5FontWeight;
+extern float const TypographyWebHead18BoldH5H6FontWeight;
+extern float const TypographyWebHead18RegularH5H6FontWeight;
+extern float const TypographyWebSubtitle20BoldSubtitleFontWeight;
+extern float const TypographyWebSubtitle20RegularSubtitleFontWeight;
+extern float const TypographyWebSubtitle20LightSubtitleFontWeight;
+extern float const TypographyWebSubtitle16BoldCapsSubtitleFontWeight;
+extern float const TypographyWebBody16BoldBodyFontWeight;
+extern float const TypographyWebBody16RegularBodyFontWeight;
+extern float const TypographyWebLinks16BoldBodyFontWeight;
+extern float const TypographyWebLinks16RegularBodyFontWeight;
+extern float const TypographyWebCaption12BoldCapsFontWeight;
+extern float const TypographyWebCaption12BoldFontWeight;
+extern float const TypographyWebCaption12RegularFontWeight;
+extern float const TypographyMobileHead26RegularMH1FontWeight;
+extern float const TypographyMobileHead26LightMH1FontWeight;
+extern float const TypographyMobileHead24LightMH2FontWeight;
+extern float const TypographyMobileHead22BoldMH2FontWeight;
+extern float const TypographyMobileHead20RegularMH3H4FontWeight;
+extern float const TypographyMobileHead16LightMH4H5FontWeight;
+extern float const TypographyMobileHead16BoldMH5H6FontWeight;
+extern float const TypographyMobileHead16RegularMH5H6FontWeight;
+extern float const TypographyMobileSubtitle18BoldMSubtitleFontWeight;
+extern float const TypographyMobileSubtitle18RegularMSubtitleFontWeight;
+extern float const TypographyMobileSubtitle18LightMSubtitleFontWeight;
+extern float const TypographyMobileSubtitle14BoldCapsMSubtitleFontWeight;
+extern float const TypographyMobileBody14RegularMBodyFontWeight;
+extern float const TypographyMobileBody14BoldMBodyFontWeight;
+extern float const TypographyMobileLinks14BoldMLinksFontWeight;
+extern float const TypographyMobileLinks14RegularMLinksFontWeight;
