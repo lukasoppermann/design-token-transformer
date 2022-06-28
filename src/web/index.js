@@ -2,7 +2,8 @@ const StyleDictionary = require('style-dictionary')
 
 module.exports = {
   transform: {
-    'size/px': require('./sizePx'),
+    'size/px': require('../common/sizePixel'),
+    'size/percent': require('../common/sizePercent'),
     'web/shadow': require('./webShadows'),
     'web/radius': require('./webRadius'),
     'web/padding': require('./webPadding'),
@@ -11,8 +12,9 @@ module.exports = {
     'color/hex8ToRgba': require('../common/colorToRgbaString')
   },
   transformGroup: {
-    'custom/css': StyleDictionary.transformGroup.css.concat([
+    'custom/scss': StyleDictionary.transformGroup.css.concat([
       'size/px',
+      'size/percent',
       'web/shadow',
       'web/radius',
       'web/padding',
