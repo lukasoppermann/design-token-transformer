@@ -24,7 +24,7 @@ jobs:
         id: create-json
         uses: jsdaniell/create-json@1.1.2
         with:
-          # it uses the name from your settings that was send as then tokenFileName parameter
+          # it uses the figma filename that was send as then filename parameter
           name: ${{ github.event.client_payload.filename }}
           # it uses the json string that was send as the tokens parameter
           json: ${{ github.event.client_payload.tokens }}
