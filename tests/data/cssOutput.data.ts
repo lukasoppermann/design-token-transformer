@@ -16,16 +16,14 @@ module.exports =
   --breakpoints-lg: 1280px;
   --breakpoints-sm: 768px;
   --breakpoints-md: 1024px;
+  --color-colors-semi-red: rgba(255, 95, 4, 0.5);
   --color-colors-multiple-fills-0: #40ffba;
   --color-colors-multiple-fills-1: rgba(0, 0, 0, 0.1);
   --color-colors-single-blue: #044aff;
   --color-colors-ref-blue: #044aff;
+  --color-colors-empty: rgba(0, 0, 0, 0);
   --color-colors-special-characters: #40df50;
   --color-colors-special-characters-nderung: #3456af;
-  --color-colors-semi-red: rgba(255, 95, 4, 0.5);
-  --color-colors-empty: rgba(0, 0, 0, 0);
-  --color-light-background: #ffffff;
-  --color-dark-background: #000000;
   --typography-body-h3-font-size: 20px;
   --typography-body-h3-text-decoration: none;
   --typography-body-h3-font-family: Akzidenz-Grotesk Pro;
