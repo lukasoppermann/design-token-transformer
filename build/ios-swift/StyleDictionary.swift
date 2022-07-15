@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 16 Dec 2021 18:06:29 GMT
+// Generated on Fri, 15 Jul 2022 18:16:50 GMT
 
 
 import UIKit
@@ -17,9 +17,11 @@ public class StyleDictionary {
     public static let breakpointsLg = 1280
     public static let breakpointsMd = 1024
     public static let breakpointsSm = 768
+    public static let colorColorsEmpty = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0)
     public static let colorColorsMultipleFills0 = UIColor(red: 0.251, green: 1.000, blue: 0.729, alpha: 1)
     public static let colorColorsMultipleFills1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.10196078431372549)
     public static let colorColorsRefBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
+    public static let colorColorsSemiRed = UIColor(red: 1.000, green: 0.373, blue: 0.016, alpha: 0.5019607843137255)
     public static let colorColorsSingleBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
     public static let colorColorsSpecialCharacters = UIColor(red: 0.251, green: 0.875, blue: 0.314, alpha: 1)
     public static let colorColorsSpecialCharactersNderung = UIColor(red: 0.204, green: 0.337, blue: 0.686, alpha: 1)
@@ -39,6 +41,10 @@ public class StyleDictionary {
     public static let gradientGradientMultiple1 = [object Object]
     public static let gradientGradientMultiple2 = [object Object]
     public static let gradientGradientMultiple3 = [object Object]
+    public static let gradientGradientMultiplegrad0 = [object Object]
+    public static let gradientGradientMultiplegrad1 = [object Object]
+    public static let gradientGradientMultiplegrad2 = [object Object]
+    public static let gradientGradientMultiplegrad3 = [object Object]
     public static let gradientGradientSingleWithMultipleColorStops = [object Object]
     public static let gridMultiple0 = [object Object]
     public static let gridMultiple1 = [object Object]
@@ -49,10 +55,15 @@ public class StyleDictionary {
     public static let gridMultiple6 = [object Object]
     public static let gridMultiple7 = [object Object]
     public static let gridSingle = [object Object]
+    public static let motionBouncy = [object Object]
+    public static let motionCustomSpring = [object Object]
     public static let motionDissolve = [object Object]
     public static let motionMoveIn = [object Object]
     public static let motionPush = [object Object]
     public static let motionSmart = [object Object]
+    public static let opacities025 = 0.25
+    public static let opacityFull = 1
+    public static let opacityHalf = 0.5
     public static let radiiMixed = [object Object]
     public static let radiiSmoothing = [object Object]
     public static let radius5 = [object Object]
