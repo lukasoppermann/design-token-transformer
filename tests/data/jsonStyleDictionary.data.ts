@@ -216,7 +216,7 @@ module.exports = {
       "type": "custom-stroke",
       "value": {
         "align": "inside",
-        "dashPattern": [],
+        "dashPattern": [0, 0,],
         "lineCap": "none",
         "lineJoin": "miter",
         "miterLimit": 4,
@@ -257,7 +257,7 @@ module.exports = {
       "type": "custom-stroke",
       "value": {
         "align": "inside",
-        "dashPattern": [],
+        "dashPattern": [0, 0,],
         "lineCap": "none",
         "lineJoin": "miter",
         "miterLimit": 4,
@@ -312,6 +312,40 @@ module.exports = {
       }
     }
   },
+  "opacities": {
+    "0.25": {
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "opacity",
+        },
+      },
+      "type": "custom-opacity",
+      "value": 0.25,
+    },
+  },
+  "opacity": {
+    "full": {
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "opacity",
+        },
+      },
+      "type": "custom-opacity",
+      "value": 1,
+    },
+    "half": {
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "opacity",
+        },
+      },
+      "type": "custom-opacity",
+      "value": 0.5,
+    },
+  },
   "radii": {
     "smoothing": {
       "description": null,
@@ -347,6 +381,46 @@ module.exports = {
     }
   },
   "motion": {
+    "bouncy": {
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "motion",
+        },
+      },
+      "type": "custom-transition",
+      "value": {
+        "direction": "left",
+        "duration": 0.958,
+        "easingFunction": {
+          "damping": 15,
+          "mass": 1,
+          "stiffness": 600,
+        },
+        "easingType": "spring",
+        "transitionType": "push",
+      },
+    },
+    "custom spring": {
+      "description": null,
+      "extensions": {
+        "org.lukasoppermann.figmaDesignTokens": {
+          "exportKey": "motion",
+        },
+      },
+      "type": "custom-transition",
+      "value": {
+        "direction": "left",
+        "duration": 0.744,
+        "easingFunction": {
+          "damping": 20,
+          "mass": 1,
+          "stiffness": 300,
+        },
+        "easingType": "spring",
+        "transitionType": "push",
+      },
+    },
     "move in": {
       "description": null,
       "type": "custom-transition",
@@ -358,8 +432,9 @@ module.exports = {
           "x1": 0.41999998688697815,
           "x2": 1,
           "y1": 0,
-          "y2": 1
-        }
+          "y2": 1,
+        },
+        "easingType": "cubicBezier",
       },
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -378,7 +453,8 @@ module.exports = {
           "x2": 0.06683959811925888,
           "y1": 0.052326660603284836,
           "y2": 0.9323266744613647
-        }
+        },
+        "easingType": "cubicBezier",
       },
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -397,7 +473,8 @@ module.exports = {
           "x2": 1,
           "y1": 0,
           "y2": 1
-        }
+        },
+        "easingType": "cubicBezier",
       },
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -417,7 +494,8 @@ module.exports = {
           "x2": 0.699999988079071,
           "y1": -0.05000000074505806,
           "y2": -0.5
-        }
+        },
+        "easingType": "cubicBezier",
       },
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
@@ -460,7 +538,7 @@ module.exports = {
           }
         }
       },
-      "multiple": {
+      "multiplegrad": {
         "0": {
           "type": "custom-gradient",
           "value": {
@@ -473,7 +551,7 @@ module.exports = {
               },
               {
                 "position": 1,
-                "color": "#ffb800ff"
+                "color": "#ffb80000"
               }
             ]
           }
@@ -490,7 +568,7 @@ module.exports = {
               },
               {
                 "position": 1,
-                "color": "#ffffffff"
+                "color": "#ffffff00"
               }
             ]
           }
@@ -507,7 +585,7 @@ module.exports = {
               },
               {
                 "position": 1,
-                "color": "#ffffffff"
+                "color": "#ffffff00"
               }
             ]
           }
@@ -523,8 +601,8 @@ module.exports = {
                 "color": "#4a4fccff"
               },
               {
-                "position": 1,
-                "color": "#ffffffff"
+                "position": 0.23,
+                "color": "#ffffff00"
               }
             ]
           }
@@ -541,12 +619,26 @@ module.exports = {
   },
   "color": {
     "colors": {
+      "empty": {
+        "blendMode": "normal",
+        "description": "",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "color",
+            "styleId": "S:5e1d174ea8c7f59af7d8eeb52856a48cfe285856,",
+          },
+        },
+        "type": "color",
+        "value": "#00000000",
+      },
       "multiple fills": {
         "0": {
+          "blendMode": "normal",
           "type": "color",
           "value": "#40ffbaff"
         },
         "1": {
+          "blendMode": "normal",
           "type": "color",
           "value": "#0000001a"
         },
@@ -558,7 +650,20 @@ module.exports = {
           }
         }
       },
+      "semi red": {
+        "blendMode": "normal",
+        "description": "A red with a 50% opacity",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "color",
+            "styleId": "S:73ee61b85a05b803a735041e06d604cf5b5e396c,",
+          },
+        },
+        "type": "color",
+        "value": "#ff5f0480",
+      },
       "single blue": {
+        "blendMode": "normal",
         "description": "",
         "type": "color",
         "value": "#044affff",
@@ -570,9 +675,10 @@ module.exports = {
         }
       },
       "ref blue": {
+        "blendMode": "normal",
         "description": "Some other description",
         "type": "color",
-        "value": "{color.colors.single blue.value}",
+        "value": "{color.colors.single blue}",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
             "styleId": "S:a466a5c4f753617558885425bf0c42b7a53fcda4,",
@@ -583,6 +689,7 @@ module.exports = {
       },
       "special characters": {
         "😅": {
+          "blendMode": "normal",
           "description": "Emoji",
           "type": "color",
           "value": "#40df50ff",
@@ -594,6 +701,7 @@ module.exports = {
           }
         },
         "änderung": {
+          "blendMode": "normal",
           "description": "",
           "type": "color",
           "value": "#3456afff",
@@ -606,32 +714,6 @@ module.exports = {
         }
       }
     },
-    "light": {
-      "background": {
-        "description": "",
-        "type": "color",
-        "value": "#ffffffff",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:75849ed2c7e89480495d954b1e060c72c4d7d25f,",
-            "exportKey": "color"
-          }
-        }
-      }
-    },
-    "dark": {
-      "background": {
-        "description": "",
-        "type": "color",
-        "value": "#000000ff",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:c064a8971ca99f48f554bfc70a58deb50094f797,",
-            "exportKey": "color"
-          }
-        }
-      }
-    }
   },
   "grid": {
     "multiple": {
