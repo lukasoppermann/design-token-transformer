@@ -4,12 +4,44 @@
 //
 
 // Do not edit directly
-// Generated on Fri, 15 Jul 2022 19:49:49 GMT
+// Generated on Tue, 15 Nov 2022 16:04:25 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+ColorPrimaryColorsGreenBackground,
+ColorPrimaryColorsGreenAccent,
+ColorPrimaryColorsGreen,
+ColorPrimaryColorsGreenDark,
+ColorSecondaryColorsBlueBackground,
+ColorSecondaryColorsBlueAccent,
+ColorSecondaryColorsBlue,
+ColorSecondaryColorsBlueDark,
+ColorSecondaryColorsBlueDarkBackground,
+ColorSecondaryColorsBlueTextLink,
+ColorTertiaryColorsTealBackground,
+ColorTertiaryColorsTealAccent,
+ColorTertiaryColorsTeal,
+ColorTertiaryColorsTealDark,
+ColorTertiaryColorsEggplantBackground,
+ColorTertiaryColorsEggplantAccent,
+ColorTertiaryColorsEggplantDark,
+ColorUtilityColorsRedBackground,
+ColorUtilityColorsRed,
+ColorUtilityColorsRedDark,
+ColorUtilityColorsRedPin,
+ColorUtilityColorsYellowBackground,
+ColorUtilityColorsYellow,
+ColorNeutralColorsGrayBackground,
+ColorNeutralColorsGrayLight,
+ColorNeutralColorsGrayDisabled,
+ColorNeutralColorsGray,
+ColorNeutralColorsGrayDark,
+ColorNeutralColorsBlack,
+ColorNeutralColorsWhite,
+ColorBetaSecondaryColorsBlueExtraDarkTextBeta,
+ColorBetaSecondaryColorsDeprecatedBlueDarkTextLinkBeta,
 ColorColorsSemiRed,
 ColorColorsMultipleFills0,
 ColorColorsMultipleFills1,
