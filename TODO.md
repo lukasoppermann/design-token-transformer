@@ -1,0 +1,10 @@
+- [ ] Add `unit` to properties in Size.
+- [ ] Format Type to use `Typography` class format (including correct imports).
+- [ ] Validate color format - argb vs rgba.
+- [ ] Validate property names (format, length, readability).
+- [ ] Validate the [input token file](./tokens/color-tokens.json).
+- [ ] [Optional] Merge light and dark colors into a single file.
+- [ ] Add test suite for Compose.
+- [ ] Add support for [ShowKase](https://github.com/airbnb/Showkase).
+- [ ] Clean up [REAMDE.md](./README.md).
+- [ ] Autmotate / Run as a service.

@@ -16,14 +16,29 @@ git clone https://github.com/lukasoppermann/design-token-transformer.git
 
 ## Usage
 ### Option 1: Local transformation
+---
 To use an exported json file and transform it locally on your machine, follow the 3 steps below:
 
-1. Save the `.json` file you exported using the [Design Token](https://github.com/lukasoppermann/design-tokens) plugin to the [`tokens` folder](./tokens/) (and remove the example files).
+1. Save the `.json` file you exported using the [Design Token](https://github.com/lukasoppermann/design-tokens) plugin to the [`tokens` folder](./tokens/) (and remove all files from example/build).
 2. In the terminal `cd` (navigate) to this folder.
-3. Run `npm run transform-tokens`.
-4. 🎉 Your converted tokens should be in the build folder.
 
-### Option 2: Transformation in github repository (or on server)
+#### **Jetpack Compose transformation (WIP)**
+```bash
+npm run transform:compose
+```
+🎉 Your converted [Color](./examples/build/compose/StyleDictionaryColor.kt) file should be in the [examples/build/compose](./examples/build/compose/) folder.
+
+> **Note:** This is a work in progress and will change without further notice. (See [TODO.md](./TODO.md) for pending items)
+
+#### **Other platform transformations**
+```bash
+npm run transform-tokens
+```
+🎉 Your converted tokens should be in the build folder. (See scripts under [package.json](./package.json) to view available transformations.) 
+
+
+### Option 2: Transformation in github repository (or on a server)
+---
 ##### 1. Fork this repository.  
 It is recommended to create a [fork](../../fork) of this repository and adapt it to your needs.   
 Should you decide to instead create a new repo, make sure to set up a [.github/workflows](.github/workflows) file that handles the data.
