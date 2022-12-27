@@ -3,7 +3,7 @@
     "primarycolor": {
       "description": "This is the promary color",
       "type": "color",
-      "value": "#1a1441ff",
+      "value": "#e11e59ff",
       "blendMode": "normal",
       "extensions": {
         "org.lukasoppermann.figmaDesignTokens": {
