@@ -4,12 +4,12 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 27 Dec 2022 01:26:22 GMT
+// Generated on Tue, 27 Dec 2022 01:28:40 GMT
 
 
 import UIKit
 
 public class StyleDictionary {
-    public static let colorPrimarycolor = UIColor(red: 0.102, green: 0.078, blue: 0.255, alpha: 1)
+    public static let colorPrimarycolor = UIColor(red: 0.882, green: 0.118, blue: 0.349, alpha: 1)
     public static let colorSecondarycolor = UIColor(red: 0.820, green: 0.671, blue: 0.447, alpha: 1)
 }
