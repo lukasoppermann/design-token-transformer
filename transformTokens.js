@@ -41,7 +41,7 @@ StyleDictionary.registerTransformGroup({
 
 StyleDictionary.registerTransformGroup({
   name: 'custom/scss',
-  transforms: StyleDictionary.transformGroup['less'].concat([
+  transforms: StyleDictionary.transformGroup['scss'].concat([
     'size/px',
     'size/percent'
   ])
