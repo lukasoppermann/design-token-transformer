@@ -76,6 +76,6 @@ To customize the output please view the [Amazon style dictionary documentation](
 If you only see the `Get started with GitHub Actions` page without an option to `enable actions` you either deleted the [.github/workflows](.github/workflows) file from your forked repository, or you created a new repositiory without adding a [.github/workflows](.github/workflows) file. See [step 1](#1-fork-this-repository).
 
 ## Bugs, issues & feature requests
-If you have issues concerning the [Design Tokens plugin for Figma](https://github.com/lukasoppermann/design-tokens) please [create an issue in the plugin repo](https://github.com/lukasoppermann/design-tokens/issues/new). 
+If you have issues concerning the [Design Tokens plugin for Figma](https://github.com/lukasoppermann/design-tokens) please [create an issue in the plugin repo](https://github.com/lukasoppermann/design-tokens/issues/new).
 
 Only create an issue in this repository if you have an issue with this transformation package.
