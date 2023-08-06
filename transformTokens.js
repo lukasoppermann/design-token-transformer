@@ -46,6 +46,20 @@ const StyleDictionaryExtended = StyleDictionary.extend({
   ...deepMerge.all([androidConfig, webConfig]),
   source: ["tokens/*.json"],
   platforms: {
+    ts: {
+      buildPath: "src/tokens/",
+      transformGroup: "js",
+      files: [
+        {
+          format: "javascript/module",
+          destination: "tokens.js"
+        },
+        {
+          format: "typescript/module-declarations",
+          destination: "tokens.d.ts"
+        }
+      ]
+    },
     scss: {
       transformGroup: "custom/css",
       buildPath: "build/scss/",
