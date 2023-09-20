@@ -1,5 +1,23 @@
+const TinyColor = require('@ctrl/tinycolor');
 const fs = require('fs-extra');
-const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
+const changeCase = require('change-case');
+const { contents, darkAppearance, idiom } = require('./consts');
+
+const percentageToFloat = percentageString => {
+  return parseInt(percentageString.substring(0, percentageString.length - 1)) / 100;
+}
+
+const ratioRgb = color => {
+  const colorObj = new TinyColor.TinyColor(color)
+  const percentages = colorObj.toPercentageRgb()
+
+  return {
+    red: `${percentageToFloat(percentages.r).toFixed(3)}`,
+    green: `${percentageToFloat(percentages.g).toFixed(3)}`,
+    blue: `${percentageToFloat(percentages.b).toFixed(3)}`,
+    alpha: `${percentages.a.toFixed(3)}`
+  };
+}
 
 /**
  * This action will iterate over all the colors in the Style Dictionary
@@ -9,14 +27,18 @@ const { contents, darkAppearance, idiom, hcAppearance } = require('./consts');
 module.exports = {
   // This is going to run once per theme.
   do: (dictionary, platform) => {
-    const assetPath = `${platform.buildPath}/StyleDictionary.xcassets`;
+    const assetPath = `${platform.buildPath}/Colors.xcassets`;
     fs.ensureDirSync(assetPath)
     fs.writeFileSync(`${assetPath}/Contents.json`, JSON.stringify(contents, null, 2));
-    
+
     dictionary.allProperties
-      .filter(token => token.attributes.category === `color`)
+      .map(token => {
+        console.log(token)
+        return token
+      })
+      .filter(token => token.type === `color`)
       .forEach(token => {
-        const colorsetPath = `${assetPath}/${token.name}.colorset`;
+        const colorsetPath = `${assetPath}/${changeCase.pascalCase(token.path.slice(2).join(' '))}.colorset`;
         fs.ensureDirSync(colorsetPath);
         
         // The colorset might already exist because Style Dictionary is run multiple
@@ -30,11 +52,11 @@ module.exports = {
           idiom,
           color: {
             'color-space': `display-p3`,
-            components: token.value
+            components: ratioRgb(token.value)
           }
         };
         
-        if (platform.mode === `dark`) {
+        if (token.path[1] === `dark mode`) {
           color.appearances = [darkAppearance];
         }
 

@@ -1,7 +1,7 @@
 const StyleDictionary = require('style-dictionary')
 
 const modes = [`light`, `dark`];
-const iosPath = `ios/dist/`;
+const iosPath = `ios/`;
 const iosColors = {
   buildPath: iosPath,
   transforms: [`attribute/cti`, `colorRGB` ,`name/ti/camel`],
@@ -18,29 +18,10 @@ const styleDictionary = StyleDictionary.extend({
   }
 })
 
-console.log(`☀️ Building light mode...`);
+console.log(`☀️ Building light & dark mode...`);
 styleDictionary.extend({
-  source: [`tokens/**/!(*.${modes.join(`|*.`)}).json5`],
+  source: [`tokens/**/!(*.${modes.join(`|*.`)}).json`],
   platforms: {
-    iosColors: Object.assign(iosColors, {
-      mode: `light`
-    })
-  },
-}).buildAllPlatforms();
-
-// Dark Mode
-// we will only build the files we need to, we don't need to rebuild all the files
-console.log(`\n\n🌙 Building dark mode...`);
-styleDictionary.extend({
-  // Using the include array so that theme token overrides don't show
-  // warnings in the console. 
-  include: [
-    `tokens/**/!(*.${modes.join(`|*.`)}).json5`
-  ],
-  source: [`tokens/**/*.dark.json5`],
-  platforms: {
-    iosColors: Object.assign(iosColors, {
-      mode: `dark`
-    })
+    iosColors
   },
 }).buildAllPlatforms();
