@@ -1,975 +1,1854 @@
 {
-  "sizes": {
-    "32": {
-      "description": "32.72px spacer component",
-      "value": 32.72,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
+  "primitive_color": {
+    "ih": {
+      "light": {
+        "white-transparent": {
+          "0": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#ffffffe6",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#ffffffcc",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#ffffffb3",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#ffffff99",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#ffffff80",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#ffffff66",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#ffffff4d",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#ffffff33",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#ffffff1a",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#ffffff0d",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#ffffff03",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#ffffff00",
+            "blendMode": "normal"
+          }
+        },
+        "black-transparent": {
+          "0": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#000000e6",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#000000cc",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#000000b3",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#00000099",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#00000080",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#00000066",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#0000004d",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#00000033",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#0000001a",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#0000000d",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#00000003",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#00000000",
+            "blendMode": "normal"
+          }
+        },
+        "blue": {
+          "0": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#000369ff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#0009a6ff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#0012e7ff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#134aeeff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#366df4ff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#5d8df9ff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#83aafdff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#aac6ffff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#d3e2ffff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#e9f1ffff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#f9fbffff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          }
+        },
+        "green": {
+          "0": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#001f1aff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#00372fff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#005045ff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#006a5cff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#048574ff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#529e8fff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#7fb5a9ff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#a9cdc4ff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#d4e6e1ff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#e9f2f0ff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#fafcfbff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          }
+        },
+        "neutral": {
+          "0": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#1a1a23ff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#2e2e3eff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#454556ff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#5d5d69ff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#76767cff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#909095ff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#aaabaeff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#c5c5c7ff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#e1e1e2ff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#f0f0f0ff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#fcfcfcff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          }
+        },
+        "red": {
+          "0": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#400000ff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#680000ff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#940000ff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#c00000ff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#e72218ff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#f36251ff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#fb8b7bff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#ffb3a7ff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#ffd8d1ff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#ffedeaff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#fffaf9ff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          }
+        },
+        "yellow": {
+          "0": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#350f00ff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#571e00ff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#783200ff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#984700ff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#ba5d01ff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#cc7f39ff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#db9f5cff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#eabf7dff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#f7df9cff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#fef2b7ff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#fffceeff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          }
+        }
+      },
+      "dark": {
+        "blue": {
+          "0": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#d4e2ffff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#aac6ffff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#83aafdff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#5d8df9ff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#376ef4ff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#134aeeff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#0015e7ff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#000aa6ff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#00046bff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#00024eff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#00001bff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          }
+        },
+        "green": {
+          "0": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#d4e6e1ff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#a9cdc5ff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#7fb5a9ff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#539e8fff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#0c8675ff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#006a5cff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#005145ff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#00372eff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#00201aff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#001410ff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#000403ff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          }
+        },
+        "neutral": {
+          "0": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#e2e2e3ff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#c5c5c8ff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#aaabaeff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#909095ff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#76767cff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#5d5d69ff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#454657ff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#2e2f3fff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#1b1b24ff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#111116ff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#030304ff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          }
+        },
+        "red": {
+          "0": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#ffdad3ff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#ffb3a7ff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#fb8c7cff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#f36151ff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#e8241aff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#c00000ff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#940000ff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#690000ff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#410000ff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#2d0000ff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#100000ff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          }
+        },
+        "black-transparent": {
+          "0": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#000000e6",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#000000cc",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#000000b3",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#00000099",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#00000080",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#00000066",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#0000004d",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#00000033",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#0000001a",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#0000000d",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#00000003",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#00000000",
+            "blendMode": "normal"
+          }
+        },
+        "yellow": {
+          "0": {
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal"
+          },
+          "10": {
+            "type": "color",
+            "value": "#f8e09eff",
+            "blendMode": "normal"
+          },
+          "20": {
+            "type": "color",
+            "value": "#eabf7dff",
+            "blendMode": "normal"
+          },
+          "30": {
+            "type": "color",
+            "value": "#db9f5cff",
+            "blendMode": "normal"
+          },
+          "40": {
+            "type": "color",
+            "value": "#cc7f39ff",
+            "blendMode": "normal"
+          },
+          "50": {
+            "type": "color",
+            "value": "#ba5e02ff",
+            "blendMode": "normal"
+          },
+          "60": {
+            "type": "color",
+            "value": "#984700ff",
+            "blendMode": "normal"
+          },
+          "70": {
+            "type": "color",
+            "value": "#783300ff",
+            "blendMode": "normal"
+          },
+          "80": {
+            "type": "color",
+            "value": "#581e00ff",
+            "blendMode": "normal"
+          },
+          "90": {
+            "type": "color",
+            "value": "#350f00ff",
+            "blendMode": "normal"
+          },
+          "95": {
+            "type": "color",
+            "value": "#240800ff",
+            "blendMode": "normal"
+          },
+          "99": {
+            "type": "color",
+            "value": "#090100ff",
+            "blendMode": "normal"
+          },
+          "100": {
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal"
+          }
+        }
       }
+    }
+  },
+  "semantic_color": {
+    "ih-light": {
+      "bg": {
+        "primary": {
+          "description": "Default background color.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.100}"
+        },
+        "secondary": {
+          "description": "Subtle background color. Often used to contain related items.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.95}"
+        },
+        "disabled": {
+          "description": "Disabled backgrounds.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.95}"
+        },
+        "brand": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.90}"
+          },
+          "base": {
+            "description": "Default background color for primary buttons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.30}"
+          },
+          "strong": {
+            "description": "Hover and active state for primary buttons. Background color for member chat messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.20}"
+          }
+        },
+        "success": {
+          "weak": {
+            "description": "Subtle background color for success messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.90}"
+          },
+          "base": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.50}"
+          },
+          "strong": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.20}"
+          }
+        },
+        "warning": {
+          "weak": {
+            "description": "Subtle background color for warning messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.95}"
+          },
+          "base": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.50}"
+          },
+          "strong": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.20}"
+          }
+        },
+        "danger": {
+          "weak": {
+            "description": "Subtle background color for danger messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.90}"
+          },
+          "base": {
+            "description": "Default background color for primary destructive buttons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.40}"
+          },
+          "strong": {
+            "description": "Hover and active state for primary destructive buttons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.20}"
+          }
+        },
+        "overlay": {
+          "weak": {
+            "description": "Weak scrim color used behind bottom sheets and loading spinners.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.black-transparent.90}"
+          },
+          "base": {
+            "description": "Base scrim color used behind full-screen modals and/or alerts.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.black-transparent.70}"
+          },
+          "strong": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.black-transparent.20}"
+          }
+        }
+      },
+      "fg": {
+        "primary": {
+          "description": "Default color for text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.10}"
+        },
+        "secondary": {
+          "description": "Less important text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.40}"
+        },
+        "placeholder": {
+          "description": "Placeholder text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.50}"
+        },
+        "disabled": {
+          "description": "Disabled text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.60}"
+        },
+        "contrast": {
+          "description": "Contrasting color to use for text or icons on \"base\" or \"strong\" background colors.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.100}"
+        },
+        "brand": {
+          "weak": {
+            "description": "Disabled text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.70}"
+          },
+          "base": {
+            "description": "Default color for interactive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.30}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.20}"
+          }
+        },
+        "success": {
+          "weak": {
+            "description": "Disabled text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.70}"
+          },
+          "base": {
+            "description": "Default color for success/positive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive success text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.20}"
+          }
+        },
+        "warning": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.70}"
+          },
+          "base": {
+            "description": "Default color for warning text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive warning text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.20}"
+          }
+        },
+        "danger": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.70}"
+          },
+          "base": {
+            "description": "Default color for danger/destructive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.40}"
+          },
+          "strong": {
+            "description": "Hover and active state for danger/destructive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.20}"
+          }
+        }
+      },
+      "border": {
+        "weaker": {
+          "description": "Default card border.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.90}"
+        },
+        "weak": {
+          "description": "Disabled border for inputs or selectable buttons.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.80}"
+        },
+        "strong": {
+          "description": "Hover and active states for default border.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.40}"
+        },
+        "contrast": {
+          "description": "Contrasting color to use for borders on \"base\" or \"strong\" background colors.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.100}"
+        },
+        "brand": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.70}"
+          },
+          "base": {
+            "description": "Default color for interactive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.30}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.blue.20}"
+          }
+        },
+        "success": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.70}"
+          },
+          "base": {
+            "description": "Default color for success/positive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive success borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.green.20}"
+          }
+        },
+        "warning": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.70}"
+          },
+          "base": {
+            "description": "Default color for warning borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive warning borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.yellow.20}"
+          }
+        },
+        "danger": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.70}"
+          },
+          "base": {
+            "description": "Default color for danger/destructive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.40}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive danger/destructive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.red.20}"
+          }
+        },
+        "base": {
+          "description": "Default border for text inputs or selectable buttons.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.60}"
+        },
+        "stronger": {
+          "description": "Checkbox and radio button border.",
+          "type": "color",
+          "value": "{primitive_color.ih.light.neutral.10}"
+        }
+      }
+    },
+    "ih-dark": {
+      "bg": {
+        "primary": {
+          "description": "Default background color.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.100}"
+        },
+        "secondary": {
+          "description": "Subtle background color. Often used to contain related items.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.95}"
+        },
+        "disabled": {
+          "description": "Disabled backgrounds.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.95}"
+        },
+        "brand": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.90}"
+          },
+          "base": {
+            "description": "Default background color for primary buttons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.30}"
+          },
+          "strong": {
+            "description": "Hover and active state for primary buttons. Background color for member chat messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.20}"
+          }
+        },
+        "success": {
+          "weak": {
+            "description": "Subtle background color for success messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.90}"
+          },
+          "base": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.50}"
+          },
+          "strong": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.20}"
+          }
+        },
+        "warning": {
+          "weak": {
+            "description": "Subtle background color for warning messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.95}"
+          },
+          "base": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.50}"
+          },
+          "strong": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.20}"
+          }
+        },
+        "danger": {
+          "weak": {
+            "description": "Subtle background color for danger messages.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.90}"
+          },
+          "base": {
+            "description": "Default background color for primary destructive buttons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.40}"
+          },
+          "strong": {
+            "description": "Hover and active state for primary destructive buttons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.20}"
+          }
+        },
+        "overlay": {
+          "weak": {
+            "description": "Weak scrim color used behind bottom sheets and loading spinners.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.black-transparent.90}"
+          },
+          "base": {
+            "description": "Base scrim color used behind full-screen modals and/or alerts.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.black-transparent.70}"
+          },
+          "strong": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.light.black-transparent.20}"
+          }
+        }
+      },
+      "fg": {
+        "primary": {
+          "description": "Default color for text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.10}"
+        },
+        "secondary": {
+          "description": "Less important text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.40}"
+        },
+        "placeholder": {
+          "description": "Placeholder text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.50}"
+        },
+        "disabled": {
+          "description": "Disabled text and icons.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.60}"
+        },
+        "contrast": {
+          "description": "Contrasting color to use for text or icons on \"base\" or \"strong\" background colors.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.100}"
+        },
+        "brand": {
+          "weak": {
+            "description": "Disabled text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.70}"
+          },
+          "base": {
+            "description": "Default color for interactive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.30}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.20}"
+          }
+        },
+        "success": {
+          "weak": {
+            "description": "Disabled text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.70}"
+          },
+          "base": {
+            "description": "Default color for success/positive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive success text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.20}"
+          }
+        },
+        "warning": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.70}"
+          },
+          "base": {
+            "description": "Default color for warning text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive warning text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.20}"
+          }
+        },
+        "danger": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.70}"
+          },
+          "base": {
+            "description": "Default color for danger/destructive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.40}"
+          },
+          "strong": {
+            "description": "Hover and active state for danger/destructive text and icons.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.20}"
+          }
+        }
+      },
+      "border": {
+        "weaker": {
+          "description": "Default card border.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.90}"
+        },
+        "weak": {
+          "description": "Disabled border for inputs or selectable buttons.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.80}"
+        },
+        "strong": {
+          "description": "Hover and active states for default border.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.40}"
+        },
+        "contrast": {
+          "description": "Contrasting color to use for borders on \"base\" or \"strong\" background colors.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.100}"
+        },
+        "brand": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.70}"
+          },
+          "base": {
+            "description": "Default color for interactive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.30}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.blue.20}"
+          }
+        },
+        "success": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.70}"
+          },
+          "base": {
+            "description": "Default color for success/positive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive success borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.green.20}"
+          }
+        },
+        "warning": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.70}"
+          },
+          "base": {
+            "description": "Default color for warning borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.50}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive warning borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.yellow.20}"
+          }
+        },
+        "danger": {
+          "weak": {
+            "description": "No uses currently.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.70}"
+          },
+          "base": {
+            "description": "Default color for danger/destructive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.40}"
+          },
+          "strong": {
+            "description": "Hover and active state for interactive danger/destructive borders.",
+            "type": "color",
+            "value": "{primitive_color.ih.dark.red.20}"
+          }
+        },
+        "base": {
+          "description": "Default border for text inputs or selectable buttons.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.60}"
+        },
+        "stronger": {
+          "description": "Checkbox and radio button border.",
+          "type": "color",
+          "value": "{primitive_color.ih.dark.neutral.10}"
+        }
+      }
+    }
+  },
+  "primitive_space": {
+    "0": {
+      "type": "dimension",
+      "value": 0
+    },
+    "4": {
+      "type": "dimension",
+      "value": 4
+    },
+    "8": {
+      "type": "dimension",
+      "value": 8
+    },
+    "12": {
+      "type": "dimension",
+      "value": 12
+    },
+    "16": {
+      "type": "dimension",
+      "value": 16
+    },
+    "20": {
+      "type": "dimension",
+      "value": 20
+    },
+    "24": {
+      "type": "dimension",
+      "value": 24
+    },
+    "28": {
+      "type": "dimension",
+      "value": 28
+    },
+    "32": {
+      "type": "dimension",
+      "value": 32
+    },
+    "36": {
+      "type": "dimension",
+      "value": 36
     },
     "40": {
-      "description": null,
-      "value": 40,
       "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
+      "value": 40
+    },
+    "44": {
+      "type": "dimension",
+      "value": 44
+    },
+    "48": {
+      "type": "dimension",
+      "value": 48
+    },
+    "52": {
+      "type": "dimension",
+      "value": 52
+    },
+    "56": {
+      "type": "dimension",
+      "value": 56
     },
     "60": {
-      "description": null,
-      "value": 60,
       "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
+      "value": 60
+    },
+    "64": {
+      "type": "dimension",
+      "value": 64
+    },
+    "68": {
+      "type": "dimension",
+      "value": 68
+    },
+    "72": {
+      "type": "dimension",
+      "value": 72
+    },
+    "76": {
+      "type": "dimension",
+      "value": 76
     },
     "80": {
-      "description": null,
-      "value": 80,
       "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
+      "value": 80
+    },
+    "84": {
+      "type": "dimension",
+      "value": 84
+    },
+    "88": {
+      "type": "dimension",
+      "value": 88
+    },
+    "92": {
+      "type": "dimension",
+      "value": 92
+    },
+    "96": {
+      "type": "dimension",
+      "value": 96
+    },
+    "100": {
+      "type": "dimension",
+      "value": 100
+    },
+    "104": {
+      "type": "dimension",
+      "value": 104
+    },
+    "108": {
+      "type": "dimension",
+      "value": 108
+    },
+    "112": {
+      "type": "dimension",
+      "value": 112
+    },
+    "116": {
+      "type": "dimension",
+      "value": 116
+    },
+    "120": {
+      "type": "dimension",
+      "value": 120
+    },
+    "124": {
+      "type": "dimension",
+      "value": 124
+    },
+    "128": {
+      "type": "dimension",
+      "value": 128
+    },
+    "132": {
+      "type": "dimension",
+      "value": 132
+    },
+    "136": {
+      "type": "dimension",
+      "value": 136
+    },
+    "140": {
+      "type": "dimension",
+      "value": 140
+    },
+    "144": {
+      "type": "dimension",
+      "value": 144
+    },
+    "148": {
+      "type": "dimension",
+      "value": 148
+    },
+    "152": {
+      "type": "dimension",
+      "value": 152
+    },
+    "156": {
+      "type": "dimension",
+      "value": 156
+    },
+    "160": {
+      "type": "dimension",
+      "value": 160
+    },
+    "164": {
+      "type": "dimension",
+      "value": 164
+    },
+    "168": {
+      "type": "dimension",
+      "value": 168
+    },
+    "172": {
+      "type": "dimension",
+      "value": 172
+    },
+    "176": {
+      "type": "dimension",
+      "value": 176
+    },
+    "180": {
+      "type": "dimension",
+      "value": 180
+    },
+    "184": {
+      "type": "dimension",
+      "value": 184
+    },
+    "188": {
+      "type": "dimension",
+      "value": 188
+    },
+    "192": {
+      "type": "dimension",
+      "value": 192
+    },
+    "196": {
+      "type": "dimension",
+      "value": 196
+    },
+    "200": {
+      "type": "dimension",
+      "value": 200
+    },
+    "204": {
+      "type": "dimension",
+      "value": 204
+    },
+    "208": {
+      "type": "dimension",
+      "value": 208
+    },
+    "212": {
+      "type": "dimension",
+      "value": 212
+    },
+    "216": {
+      "type": "dimension",
+      "value": 216
+    },
+    "220": {
+      "type": "dimension",
+      "value": 220
+    },
+    "224": {
+      "type": "dimension",
+      "value": 224
+    },
+    "228": {
+      "type": "dimension",
+      "value": 228
+    },
+    "232": {
+      "type": "dimension",
+      "value": 232
+    },
+    "236": {
+      "type": "dimension",
+      "value": 236
+    },
+    "240": {
+      "type": "dimension",
+      "value": 240
+    },
+    "244": {
+      "type": "dimension",
+      "value": 244
+    },
+    "248": {
+      "type": "dimension",
+      "value": 248
+    },
+    "252": {
+      "type": "dimension",
+      "value": 252
+    },
+    "256": {
+      "type": "dimension",
+      "value": 256
+    }
+  },
+  "semantic_space": {
+    "mobile": {
+      "none": {
+        "type": "dimension",
+        "value": "{primitive_space.0}"
+      },
+      "2xs": {
+        "type": "dimension",
+        "value": "{primitive_space.4}"
+      },
+      "xs": {
+        "type": "dimension",
+        "value": "{primitive_space.8}"
+      },
+      "s": {
+        "type": "dimension",
+        "value": "{primitive_space.12}"
+      },
+      "m": {
+        "type": "dimension",
+        "value": "{primitive_space.16}"
+      },
+      "l": {
+        "type": "dimension",
+        "value": "{primitive_space.24}"
+      },
+      "xl": {
+        "type": "dimension",
+        "value": "{primitive_space.32}"
+      },
+      "2xl": {
+        "type": "dimension",
+        "value": "{primitive_space.48}"
+      },
+      "3xl": {
+        "type": "dimension",
+        "value": "{primitive_space.64}"
+      },
+      "4xl": {
+        "type": "dimension",
+        "value": "{primitive_space.96}"
+      },
+      "5xl": {
+        "type": "dimension",
+        "value": "{primitive_space.128}"
       }
     },
-    "plain token": {
-      "description": null,
-      "value": 200,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "token in frame": {
-      "description": null,
-      "value": 200,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "token in group": {
-      "description": null,
-      "value": 200,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "in variant 60": {
-      "description": null,
-      "value": 60,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "in variant 90": {
-      "description": null,
-      "value": 90,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "in variant 120": {
-      "description": null,
-      "value": 120,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "frame": {
-      "description": null,
-      "value": 32,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "rect": {
-      "description": null,
-      "value": 32,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
-      }
-    },
-    "shape in component": {
-      "description": "Should use 32px not 20 from inside shape",
-      "value": 32,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "size" }
+    "desktop": {
+      "none": {
+        "type": "dimension",
+        "value": "{primitive_space.0}"
+      },
+      "2xs": {
+        "type": "dimension",
+        "value": "{primitive_space.8}"
+      },
+      "xs": {
+        "type": "dimension",
+        "value": "{primitive_space.12}"
+      },
+      "s": {
+        "type": "dimension",
+        "value": "{primitive_space.16}"
+      },
+      "m": {
+        "type": "dimension",
+        "value": "{primitive_space.24}"
+      },
+      "l": {
+        "type": "dimension",
+        "value": "{primitive_space.32}"
+      },
+      "xl": {
+        "type": "dimension",
+        "value": "{primitive_space.48}"
+      },
+      "2xl": {
+        "type": "dimension",
+        "value": "{primitive_space.64}"
+      },
+      "3xl": {
+        "type": "dimension",
+        "value": "{primitive_space.96}"
+      },
+      "4xl": {
+        "type": "dimension",
+        "value": "{primitive_space.128}"
+      },
+      "5xl": {
+        "type": "dimension",
+        "value": "{primitive_space.156}"
       }
     }
   },
-  "breakpoints": {
-    "lg": {
-      "description": null,
-      "value": 1280,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "breakpoint" }
-      }
-    },
-    "sm": {
-      "description": null,
-      "value": 768,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "breakpoint" }
-      }
-    },
-    "md": {
-      "description": null,
-      "value": 1024,
-      "type": "dimension",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "breakpoint" }
-      }
-    }
-  },
-  "spacing": {
-    "10": {
-      "description": null,
-      "type": "custom-spacing",
-      "value": { "top": 10, "bottom": 10, "left": 10, "right": 10 },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "spacing" }
-      }
-    },
-    "mixed": {
-      "description": null,
-      "type": "custom-spacing",
-      "value": { "top": 10, "bottom": 30, "left": 20, "right": 20 },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "spacing" }
-      }
-    },
-    "top": {
-      "description": null,
-      "type": "custom-spacing",
-      "value": { "top": 10, "bottom": 0, "left": 0, "right": 0 },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "spacing" }
-      }
-    }
-  },
-  "borders": {
-    "single": {
-      "description": null,
-      "type": "custom-stroke",
-      "value": {
-        "align": "inside",
-        "dashPattern": [0, 0],
-        "lineCap": "none",
-        "lineJoin": "miter",
-        "miterLimit": 4,
-        "weight": 5,
-        "color": "#000000ff"
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "border" }
-      }
-    },
-    "dashed outside": {
-      "description": null,
-      "type": "custom-stroke",
-      "value": {
-        "align": "outside",
-        "dashPattern": [5, 5, 3, 3],
-        "lineCap": "none",
-        "lineJoin": "miter",
-        "miterLimit": 4,
-        "weight": 5,
-        "color": "#000000ff"
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "border" }
-      }
-    },
-    "single (style)": {
-      "description": null,
-      "type": "custom-stroke",
-      "value": {
-        "align": "inside",
-        "dashPattern": [0, 0],
-        "lineCap": "none",
-        "lineJoin": "miter",
-        "miterLimit": 4,
-        "weight": 5,
-        "color": "#044affff"
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "border" }
-      }
-    },
-    "unsupported": {
-      "multiple borders": {
-        "description": null,
-        "type": "custom-stroke",
-        "value": {
-          "align": "inside",
-          "dashPattern": [5, 10],
-          "lineCap": "none",
-          "lineJoin": "miter",
-          "miterLimit": 4,
-          "weight": 5,
-          "color": "#ffe600ff"
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": { "exportKey": "border" }
-        }
-      }
-    }
-  },
-  "radius": {
-    "5": {
-      "description": null,
-      "type": "custom-radius",
-      "value": {
-        "smoothing": 0,
-        "topLeft": 5,
-        "topRight": 5,
-        "bottomLeft": 5,
-        "bottomRight": 5
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "radius" }
-      }
-    }
-  },
-  "radii": {
-    "smoothing": {
-      "description": null,
-      "type": "custom-radius",
-      "value": {
-        "smoothing": 0.75,
-        "topLeft": 10,
-        "topRight": 10,
-        "bottomLeft": 10,
-        "bottomRight": 10
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "radius" }
-      }
-    },
-    "mixed": {
-      "description": null,
-      "type": "custom-radius",
-      "value": {
-        "smoothing": 0,
-        "topLeft": 5.5,
-        "topRight": 10,
-        "bottomLeft": 20,
-        "bottomRight": 15
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "radius" }
-      }
-    }
-  },
-  "motion": {
-    "move in": {
-      "description": null,
-      "type": "custom-transition",
-      "value": {
-        "transitionType": "move_in",
-        "duration": 0.5,
-        "direction": "left",
-        "easingType": "cubicBezier",
-        "easingFunction": {
-          "x1": 0.41999998688697815,
-          "x2": 1,
-          "y1": 0,
-          "y2": 1
-        }
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "motion" }
-      }
-    },
-    "dissolve": {
-      "description": null,
-      "type": "custom-transition",
-      "value": {
-        "transitionType": "dissolve",
-        "duration": 0.45,
-        "easingType": "cubicBezier",
-        "easingFunction": {
-          "x1": 0.6968395709991455,
-          "x2": 0.06683959811925888,
-          "y1": 0.052326660603284836,
-          "y2": 0.9323266744613647
-        }
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "motion" }
-      }
-    },
-    "smart": {
-      "description": null,
-      "type": "custom-transition",
-      "value": {
-        "transitionType": "smart_animate",
-        "duration": 0.5,
-        "easingType": "cubicBezier",
-        "easingFunction": { "x1": 0, "x2": 1, "y1": 0, "y2": 1 }
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "motion" }
-      }
-    },
-    "push": {
-      "description": null,
-      "type": "custom-transition",
-      "value": {
-        "transitionType": "push",
-        "duration": 0.5,
-        "direction": "left",
-        "easingType": "cubicBezier",
-        "easingFunction": {
-          "x1": 0.30000001192092896,
-          "x2": 0.699999988079071,
-          "y1": -0.05000000074505806,
-          "y2": -0.5
-        }
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "motion" }
-      }
-    },
-    "bouncy": {
-      "description": null,
-      "type": "custom-transition",
-      "value": {
-        "transitionType": "push",
-        "duration": 0.958,
-        "direction": "left",
-        "easingType": "spring",
-        "easingFunction": { "mass": 1, "stiffness": 600, "damping": 15 }
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "motion" }
-      }
-    },
-    "custom spring": {
-      "description": null,
-      "type": "custom-transition",
-      "value": {
-        "transitionType": "push",
-        "duration": 0.744,
-        "direction": "left",
-        "easingType": "spring",
-        "easingFunction": { "mass": 1, "stiffness": 300, "damping": 20 }
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "motion" }
-      }
-    }
-  },
-  "opacities": {
-    "0.25": {
-      "description": null,
-      "value": 0.25,
-      "type": "custom-opacity",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "opacity" }
-      }
-    }
-  },
-  "opacity": {
-    "full": {
-      "description": null,
-      "value": 1,
-      "type": "custom-opacity",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "opacity" }
-      }
-    },
-    "half": {
-      "description": null,
-      "value": 0.5,
-      "type": "custom-opacity",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": { "exportKey": "opacity" }
-      }
-    }
-  },
-  "gradient": {
-    "gradient": {
-      "single with multiple color stops": {
-        "description": "Four color stops from yellow to red",
-        "type": "custom-gradient",
-        "value": {
-          "gradientType": "radial",
-          "rotation": 180,
-          "stops": [
-            { "position": 0, "color": "#ffb800ff" },
-            { "position": 0.34, "color": "#ff8a00ff" },
-            { "position": 0.65, "color": "#ff2e00ff" },
-            { "position": 1, "color": "#ff0000ff" }
-          ]
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:86b7ea8e4f88825c7ab660ae5f7cbbadfe6eb72f,",
-            "exportKey": "gradient"
-          }
-        }
-      },
-      "multiplegrad": {
-        "0": {
-          "type": "custom-gradient",
-          "value": {
-            "gradientType": "linear",
-            "rotation": 180,
-            "stops": [
-              { "position": 0, "color": "#ffb800ff" },
-              { "position": 1, "color": "#ffb80000" }
-            ]
-          }
-        },
-        "1": {
-          "type": "custom-gradient",
-          "value": {
-            "gradientType": "radial",
-            "rotation": 180,
-            "stops": [
-              { "position": 0, "color": "#ffffffff" },
-              { "position": 1, "color": "#ffffff00" }
-            ]
-          }
-        },
-        "2": {
-          "type": "custom-gradient",
-          "value": {
-            "gradientType": "angular",
-            "rotation": 180,
-            "stops": [
-              { "position": 0, "color": "#cf3030ff" },
-              { "position": 1, "color": "#ffffff00" }
-            ]
-          }
-        },
-        "3": {
-          "type": "custom-gradient",
-          "value": {
-            "gradientType": "diamond",
-            "rotation": 180,
-            "stops": [
-              { "position": 0, "color": "#4a4fccff" },
-              { "position": 0.23, "color": "#ffffff00" }
-            ]
-          }
-        },
-        "description": "",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:8ecc948b0d4487a6c702db3a947317e19be8fe7c,",
-            "exportKey": "gradient"
-          }
-        }
-      }
-    }
-  },
-  "color": {
-    "colors": {
-      "semi red": {
-        "description": "A red with a 50% opacity",
-        "type": "color",
-        "value": "#ff5f0480",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:73ee61b85a05b803a735041e06d604cf5b5e396c,",
-            "exportKey": "color"
-          }
-        }
-      },
-      "multiple fills": {
-        "0": { "type": "color", "value": "#40ffbaff", "blendMode": "normal" },
-        "1": { "type": "color", "value": "#0000001a", "blendMode": "normal" },
-        "description": "",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:4a3029d323d8fb0c05dee39a983dafea20d7221e,",
-            "exportKey": "color"
-          }
-        }
-      },
-      "single blue": {
-        "description": "",
-        "type": "color",
-        "value": "#044affff",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:41c3b1bbb20c349db5198426c9f21eee91270703,",
-            "exportKey": "color"
-          }
-        }
-      },
-      "ref blue": {
-        "description": "Some other description",
-        "type": "color",
-        "value": "{color.colors.single blue}",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:a466a5c4f753617558885425bf0c42b7a53fcda4,",
-            "exportKey": "color",
-            "alias": "color.colors.single blue"
-          }
-        }
-      },
-      "empty": {
-        "description": "",
-        "type": "color",
-        "value": "#00000000",
-        "blendMode": "normal",
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:5e1d174ea8c7f59af7d8eeb52856a48cfe285856,",
-            "exportKey": "color"
-          }
-        }
-      },
-      "special characters": {
-        "😅": {
-          "description": "Emoji",
+  "component_color": {
+    "ih-light": {
+      "avatar": {
+        "bg": {
           "type": "color",
-          "value": "#40df50ff",
-          "blendMode": "normal",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "styleId": "S:0eca3633c52956ddb97940c7445007a90b937be1,",
-              "exportKey": "color"
-            }
-          }
-        },
-        "änderung": {
-          "description": "",
+          "value": "{semantic_color.ih-dark.bg.secondary}"
+        }
+      }
+    },
+    "ih-dark": {
+      "avatar": {
+        "bg": {
           "type": "color",
-          "value": "#3456afff",
-          "blendMode": "normal",
-          "extensions": {
-            "org.lukasoppermann.figmaDesignTokens": {
-              "styleId": "S:79e9a7afce7078dc29994d2791959ebf9f45efa5,",
-              "exportKey": "color"
-            }
-          }
+          "value": "{primitive_color.ih.dark.yellow.95}"
         }
-      }
-    }
-  },
-  "grid": {
-    "multiple": {
-      "0": {
-        "type": "custom-grid",
-        "value": {
-          "pattern": "columns",
-          "sectionSize": 1,
-          "gutterSize": 20,
-          "alignment": "max",
-          "count": 7,
-          "offset": 3
-        }
-      },
-      "1": {
-        "type": "custom-grid",
-        "value": {
-          "pattern": "columns",
-          "sectionSize": 12,
-          "gutterSize": 20,
-          "alignment": "center",
-          "count": 6
-        }
-      },
-      "2": {
-        "type": "custom-grid",
-        "value": {
-          "pattern": "columns",
-          "gutterSize": 20,
-          "alignment": "stretch",
-          "count": 5,
-          "offset": 10
-        }
-      },
-      "3": {
-        "type": "custom-grid",
-        "value": {
-          "pattern": "columns",
-          "sectionSize": 34,
-          "gutterSize": 20,
-          "alignment": "min",
-          "count": 4,
-          "offset": 13
-        }
-      },
-      "4": {
-        "type": "custom-grid",
-        "value": {
-          "pattern": "rows",
-          "sectionSize": 8,
-          "gutterSize": 20,
-          "alignment": "max",
-          "count": 5,
-          "offset": 10
-        }
-      },
-      "5": {
-        "type": "custom-grid",
-        "value": {
-          "pattern": "rows",
-          "sectionSize": 8,
-          "gutterSize": 10,
-          "alignment": "center",
-          "count": 4
-        }
-      },
-      "6": {
-        "type": "custom-grid",
-        "value": {
-          "pattern": "rows",
-          "sectionSize": 8,
-          "gutterSize": 20,
-          "alignment": "min",
-          "count": 3,
-          "offset": 10
-        }
-      },
-      "7": {
-        "type": "custom-grid",
-        "value": { "pattern": "grid", "sectionSize": 8 }
-      },
-      "description": "Grid / multiple description text",
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "styleId": "S:9431d2997261a6e36216749d0d5927407d95c07f,",
-          "exportKey": "grid"
-        }
-      }
-    },
-    "single": {
-      "description": null,
-      "type": "custom-grid",
-      "value": {
-        "pattern": "columns",
-        "sectionSize": 11,
-        "gutterSize": 20,
-        "alignment": "center",
-        "count": 5
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "styleId": "S:8892f13476c0db3092e552a57f31a286640fc9d5,",
-          "exportKey": "grid"
-        }
-      }
-    }
-  },
-  "font": {
-    "body": {
-      "h3": {
-        "description": "Comment for text style",
-        "type": "custom-fontStyle",
-        "value": {
-          "fontSize": 20,
-          "textDecoration": "none",
-          "fontFamily": "Akzidenz-Grotesk Pro",
-          "fontWeight": 700,
-          "fontStyle": "normal",
-          "fontStretch": "condensed",
-          "letterSpacing": 0.4,
-          "lineHeight": 32,
-          "paragraphIndent": 5,
-          "paragraphSpacing": 8,
-          "textCase": "uppercase"
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:a63c53704c21e63e557974232108ecd0ef16f3e2,",
-            "exportKey": "font"
-          }
-        }
-      },
-      "h4 strike through": {
-        "description": "With stylisitc options",
-        "type": "custom-fontStyle",
-        "value": {
-          "fontSize": 16,
-          "textDecoration": "line-through",
-          "fontFamily": "Roboto",
-          "fontWeight": 500,
-          "fontStyle": "italic",
-          "fontStretch": "normal",
-          "letterSpacing": 0,
-          "lineHeight": 19.2,
-          "paragraphIndent": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none"
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:c9389cf45c1db49fd46f961809ca352488397f7d,",
-            "exportKey": "font"
-          }
-        }
-      },
-      "italic": {
-        "type": "custom-fontStyle",
-        "value": {
-          "fontSize": 12,
-          "textDecoration": "none",
-          "fontFamily": "Roboto",
-          "fontWeight": 400,
-          "fontStyle": "italic",
-          "fontStretch": "normal",
-          "letterSpacing": 0,
-          "lineHeight": 14,
-          "paragraphIndent": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none"
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:9928779749ba4b821d81880d1e41ccefd2b76951,",
-            "exportKey": "font"
-          }
-        }
-      },
-      "extra bold condensed italic": {
-        "type": "custom-fontStyle",
-        "value": {
-          "fontSize": 12,
-          "textDecoration": "none",
-          "fontFamily": "Akzidenz-Grotesk Pro",
-          "fontWeight": 800,
-          "fontStyle": "italic",
-          "fontStretch": "condensed",
-          "letterSpacing": 0,
-          "lineHeight": 14.4,
-          "paragraphIndent": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none"
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:2eab5c798e7b6de010927c757b69f3d605097439,",
-            "exportKey": "font"
-          }
-        }
-      },
-      "medium extended italic": {
-        "type": "custom-fontStyle",
-        "value": {
-          "fontSize": 20,
-          "textDecoration": "none",
-          "fontFamily": "Akzidenz-Grotesk Pro",
-          "fontWeight": 500,
-          "fontStyle": "italic",
-          "fontStretch": "expanded",
-          "letterSpacing": 0,
-          "lineHeight": 24,
-          "paragraphIndent": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none"
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:65286eb024a509b4cfaef329affbae773fb73a5e,",
-            "exportKey": "font"
-          }
-        }
-      },
-      "super": {
-        "type": "custom-fontStyle",
-        "value": {
-          "fontSize": 22,
-          "textDecoration": "none",
-          "fontFamily": "Akzidenz-Grotesk Pro",
-          "fontWeight": 900,
-          "fontStyle": "normal",
-          "fontStretch": "normal",
-          "letterSpacing": 0,
-          "lineHeight": 26.4,
-          "paragraphIndent": 0,
-          "paragraphSpacing": 0,
-          "textCase": "none"
-        },
-        "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:32eb85f3238ccaa59c15d6de911c57afa96ba58a,",
-            "exportKey": "font"
-          }
-        }
-      }
-    }
-  },
-  "effect": {
-    "drop shadow (single)": {
-      "description": "Drop shadow single description",
-      "type": "custom-shadow",
-      "value": {
-        "shadowType": "dropShadow",
-        "radius": 4,
-        "color": "#00000040",
-        "offsetX": 0,
-        "offsetY": 4,
-        "spread": 0
-      },
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "styleId": "S:cef90a92a0f669207251e8e2da214b6393abc44c,",
-          "exportKey": "effect"
-        }
-      }
-    },
-    "inner shadow (multiple)": {
-      "0": {
-        "type": "custom-shadow",
-        "value": {
-          "shadowType": "innerShadow",
-          "radius": 4,
-          "color": "#00000040",
-          "offsetX": 0,
-          "offsetY": 4,
-          "spread": 0
-        }
-      },
-      "1": {
-        "type": "custom-shadow",
-        "value": {
-          "shadowType": "innerShadow",
-          "radius": 1,
-          "color": "#000000ff",
-          "offsetX": 10,
-          "offsetY": 100,
-          "spread": 0.5
-        }
-      },
-      "2": {
-        "type": "custom-shadow",
-        "value": {
-          "shadowType": "innerShadow",
-          "radius": 3,
-          "color": "#00000040",
-          "offsetX": -4,
-          "offsetY": 2,
-          "spread": 11
-        }
-      },
-      "description": null,
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "styleId": "S:23c7adc38dc6cf8e157c05f8885409d3e1cf4de2,",
-          "exportKey": "effect"
-        }
-      }
-    },
-    "layer blur": {
-      "description": null,
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "styleId": "S:8a600422767982ef9e712451bb9f60a9d2c0e04f,",
-          "exportKey": "effect"
-        }
-      }
-    },
-    "background blur": {
-      "description": null,
-      "extensions": {
-        "org.lukasoppermann.figmaDesignTokens": {
-          "styleId": "S:d9246d6c5234e471b17585324379ec19abcf03f4,",
-          "exportKey": "effect"
-        }
-      }
-    }
-  },
-  "typography": {
-    "body": {
-      "h3": {
-        "description": "Comment for text style",
-        "fontSize": { "type": "dimension", "value": 20 },
-        "textDecoration": { "type": "string", "value": "none" },
-        "fontFamily": { "type": "string", "value": "Akzidenz-Grotesk Pro" },
-        "fontWeight": { "type": "number", "value": 700 },
-        "fontStyle": { "type": "string", "value": "normal" },
-        "fontStretch": { "type": "string", "value": "condensed" },
-        "letterSpacing": { "type": "dimension", "value": 0.4 },
-        "lineHeight": { "type": "dimension", "value": 32 },
-        "paragraphIndent": { "type": "dimension", "value": 5 },
-        "paragraphSpacing": { "type": "dimension", "value": 8 },
-        "textCase": { "type": "string", "value": "uppercase" }
-      },
-      "h4 strike through": {
-        "description": "With stylisitc options",
-        "fontSize": { "type": "dimension", "value": 16 },
-        "textDecoration": { "type": "string", "value": "line-through" },
-        "fontFamily": { "type": "string", "value": "Roboto" },
-        "fontWeight": { "type": "number", "value": 500 },
-        "fontStyle": { "type": "string", "value": "italic" },
-        "fontStretch": { "type": "string", "value": "normal" },
-        "letterSpacing": { "type": "dimension", "value": 0 },
-        "lineHeight": { "type": "dimension", "value": 19.2 },
-        "paragraphIndent": { "type": "dimension", "value": 0 },
-        "paragraphSpacing": { "type": "dimension", "value": 0 },
-        "textCase": { "type": "string", "value": "none" }
-      },
-      "italic": {
-        "fontSize": { "type": "dimension", "value": 12 },
-        "textDecoration": { "type": "string", "value": "none" },
-        "fontFamily": { "type": "string", "value": "Roboto" },
-        "fontWeight": { "type": "number", "value": 400 },
-        "fontStyle": { "type": "string", "value": "italic" },
-        "fontStretch": { "type": "string", "value": "normal" },
-        "letterSpacing": { "type": "dimension", "value": 0 },
-        "lineHeight": { "type": "dimension", "value": 14 },
-        "paragraphIndent": { "type": "dimension", "value": 0 },
-        "paragraphSpacing": { "type": "dimension", "value": 0 },
-        "textCase": { "type": "string", "value": "none" }
-      },
-      "extra bold condensed italic": {
-        "fontSize": { "type": "dimension", "value": 12 },
-        "textDecoration": { "type": "string", "value": "none" },
-        "fontFamily": { "type": "string", "value": "Akzidenz-Grotesk Pro" },
-        "fontWeight": { "type": "number", "value": 800 },
-        "fontStyle": { "type": "string", "value": "italic" },
-        "fontStretch": { "type": "string", "value": "condensed" },
-        "letterSpacing": { "type": "dimension", "value": 0 },
-        "lineHeight": { "type": "dimension", "value": 14.4 },
-        "paragraphIndent": { "type": "dimension", "value": 0 },
-        "paragraphSpacing": { "type": "dimension", "value": 0 },
-        "textCase": { "type": "string", "value": "none" }
-      },
-      "medium extended italic": {
-        "fontSize": { "type": "dimension", "value": 20 },
-        "textDecoration": { "type": "string", "value": "none" },
-        "fontFamily": { "type": "string", "value": "Akzidenz-Grotesk Pro" },
-        "fontWeight": { "type": "number", "value": 500 },
-        "fontStyle": { "type": "string", "value": "italic" },
-        "fontStretch": { "type": "string", "value": "expanded" },
-        "letterSpacing": { "type": "dimension", "value": 0 },
-        "lineHeight": { "type": "dimension", "value": 24 },
-        "paragraphIndent": { "type": "dimension", "value": 0 },
-        "paragraphSpacing": { "type": "dimension", "value": 0 },
-        "textCase": { "type": "string", "value": "none" }
-      },
-      "super": {
-        "fontSize": { "type": "dimension", "value": 22 },
-        "textDecoration": { "type": "string", "value": "none" },
-        "fontFamily": { "type": "string", "value": "Akzidenz-Grotesk Pro" },
-        "fontWeight": { "type": "number", "value": 900 },
-        "fontStyle": { "type": "string", "value": "normal" },
-        "fontStretch": { "type": "string", "value": "normal" },
-        "letterSpacing": { "type": "dimension", "value": 0 },
-        "lineHeight": { "type": "dimension", "value": 26.4 },
-        "paragraphIndent": { "type": "dimension", "value": 0 },
-        "paragraphSpacing": { "type": "dimension", "value": 0 },
-        "textCase": { "type": "string", "value": "none" }
       }
     }
   }
