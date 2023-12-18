@@ -2,6 +2,7 @@ const StyleDictionary = require('style-dictionary')
 const deepMerge = require("deepmerge");
 const webConfig = require('./src/web/index.js')
 const androidConfig = require("./src/android/index.js");
+//const iosConfig = require("./src/ios/index.js");
 
 StyleDictionary.registerTransform({
   name: 'size/px',
@@ -41,6 +42,55 @@ StyleDictionary.registerFilter({
     ].includes(token.type);
   }
 })
+
+const _ = require('lodash');
+
+const { fileHeader } = StyleDictionary.formatHelpers;
+
+StyleDictionary.registerFilter({
+  name: 'isIHLight',
+  matcher: function(token) {
+    return token.attributes.category === 'semantic_color' && token.type === "color" && token.attributes.type == "ih-light"
+  }
+});
+
+StyleDictionary.registerFilter({
+  name: 'isIHDark',
+  matcher: function(token) {
+    return token.attributes.category === 'semantic_color' && token.type === "color" && token.attributes.type == "ih-dark"
+  }
+});
+
+
+StyleDictionary.registerFormat({
+  name: `ih-ios-color-base`,
+  formatter: function({dictionary, file, options}) {
+    return fileHeader({file}) + 
+    `import SwiftUI\n\n` + 
+    `// swiftlint:disable all\n` +
+    `public struct AnatomyColors {\n` +
+    dictionary.allTokens.map(token => {
+        return `\tpublic let ${_.camelCase(token.path.slice(2, token.path.length).join(" "))}: Color;`
+    }).join("\n")
+    + `\n}\n`;
+  }
+});
+
+
+StyleDictionary.registerFormat({
+  name: `ih-ios-color-definitions`,
+  formatter: function({dictionary, file, options}) {
+    return fileHeader({file}) + 
+    `import SwiftUI\n\n` + 
+    `// swiftlint:disable all\n` +
+    `extension AnatomyColors {\n` +
+    `\tpublic static let ${options.type} = AnatomyColors(\n` +
+    dictionary.allTokens.map(token => {
+        return `\t\t${_.camelCase(token.path.slice(2, token.path.length).join(" "))}: Color(hex: "${token.value}")!`
+    }).join(",\n")
+    + `\n\t)\n}\n`;
+  }
+});
 
 const StyleDictionaryExtended = StyleDictionary.extend({
   ...deepMerge.all([androidConfig, webConfig]),
@@ -94,68 +144,29 @@ const StyleDictionaryExtended = StyleDictionary.extend({
       ],
     },
     ios: {
-      transformGroup: "ios",
       buildPath: "build/ios/",
-      files: [
-        {
-          destination: "StyleDictionaryColor.h",
-          format: "ios/colors.h",
-          className: "StyleDictionaryColor",
-          type: "StyleDictionaryColorName",
-          filter: {
-            type: "color",
-          },
-        },
-        {
-          destination: "StyleDictionaryColor.m",
-          format: "ios/colors.m",
-          className: "StyleDictionaryColor",
-          type: "StyleDictionaryColorName",
-          filter: {
-            type: "color",
-          },
-        },
-        {
-          destination: "StyleDictionarySize.h",
-          format: "ios/static.h",
-          className: "StyleDictionarySize",
-          type: "float",
-          filter: {
-            type: "number",
-          },
-        },
-        {
-          destination: "StyleDictionarySize.m",
-          format: "ios/static.m",
-          className: "StyleDictionarySize",
-          type: "float",
-          filter: {
-            type: "number",
-          },
-        },
-      ],
-    },
-
-    "ios-swift-separate-enums": {
       transformGroup: "ios-swift-separate",
-      buildPath: "build/ios-swift/",
       files: [
         {
-          destination: "StyleDictionaryColor.swift",
-          format: "ios-swift/enum.swift",
-          className: "StyleDictionaryColor",
-          filter: {
-            type: "color",
-          },
+          destination: "AnatomyColors.swift",
+          format: "ih-ios-color-base",
+          filter: "isIHLight"
         },
         {
-          destination: "StyleDictionarySize.swift",
-          format: "ios-swift/enum.swift",
-          className: "StyleDictionarySize",
-          type: "float",
-          filter: {
-            type: "number",
+          destination: "IncludedHealthLightColors.swift",
+          format: "ih-ios-color-definitions",
+          options: {
+            type: "ihLight"
           },
+          filter: "isIHLight"
+        },
+        {
+          destination: "IncludedHealthDarkColors.swift",
+          format: "ih-ios-color-definitions",
+          options: {
+            type: "ihDark"
+          },
+          filter: "isIHDark"
         },
       ],
     },
