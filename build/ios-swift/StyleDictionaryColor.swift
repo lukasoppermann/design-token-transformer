@@ -4,18 +4,22 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 08 May 2023 07:37:37 GMT
+// Generated on Mon, 25 Mar 2024 15:46:09 GMT
 
 
 import UIKit
 
 public enum StyleDictionaryColor {
-    public static let colorsEmpty = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0)
-    public static let colorsMultipleFills0 = UIColor(red: 0.251, green: 1.000, blue: 0.729, alpha: 1)
-    public static let colorsMultipleFills1 = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.10196078431372549)
-    public static let colorsRefBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
-    public static let colorsSemiRed = UIColor(red: 1.000, green: 0.373, blue: 0.016, alpha: 0.5019607843137255)
-    public static let colorsSingleBlue = UIColor(red: 0.016, green: 0.290, blue: 1.000, alpha: 1)
-    public static let colorsSpecialCharacters = UIColor(red: 0.251, green: 0.875, blue: 0.314, alpha: 1)
-    public static let colorsSpecialCharactersNderung = UIColor(red: 0.204, green: 0.337, blue: 0.686, alpha: 1)
+    public static let  = #fe5050ff
+    public static let colorsFancygreen = #12f0a0ff
+    public static let empty = #00000000
+    public static let functionalColorsFancyref = #12f0a0ff
+    public static let functionalColorsSuccesscolor = #12f0a0ff
+    public static let multipleFills0 = #40ffbaff
+    public static let multipleFills1 = #0000001a
+    public static let refBlue = #044affff
+    public static let semiRed = #ff5f0480
+    public static let singleBlue = #044affff
+    public static let specialCharacters = #40df50ff
+    public static let specialCharactersNderung = #3456afff
 }
