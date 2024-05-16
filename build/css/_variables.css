@@ -34,12 +34,12 @@
   --color-colors-empty: rgba(0, 0, 0, 0);
   --color-colors-special-characters: rgb(64, 223, 80);
   --color-colors-special-characters-nderung: rgb(52, 86, 175);
-  --font-body-h3: condensed  700 20/32 Akzidenz-Grotesk Pro;
-  --font-body-h4-strike-through: italic 500 16/19.2 Roboto;
-  --font-body-italic: italic 400 12/14 Roboto;
-  --font-body-extra-bold-condensed-italic: condensed italic 800 12/14.4 Akzidenz-Grotesk Pro;
-  --font-body-medium-extended-italic: expanded italic 500 20/24 Akzidenz-Grotesk Pro;
-  --font-body-super: 900 22/26.4 Akzidenz-Grotesk Pro;
+  --font-body-h3: condensed  700 20px/32px Akzidenz-Grotesk Pro;
+  --font-body-h4-strike-through: italic 500 16px/19.2px Roboto;
+  --font-body-italic: italic 400 12px/14px Roboto;
+  --font-body-extra-bold-condensed-italic: condensed italic 800 12px/14.4px Akzidenz-Grotesk Pro;
+  --font-body-medium-extended-italic: expanded italic 500 20px/24px Akzidenz-Grotesk Pro;
+  --font-body-super: 900 22px/26.4px Akzidenz-Grotesk Pro;
   --effect-drop-shadow-single: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   --effect-inner-shadow-multiple-0: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   --effect-inner-shadow-multiple-1: inset 10px 100px 1px 0.5px rgb(0, 0, 0);
