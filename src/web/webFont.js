@@ -9,6 +9,6 @@ module.exports = {
   },
   transformer: function ({ value: font }, { options }) {
     // font: font-style font-variant font-weight font-size/line-height font-family;
-    return `${notDefault(font.fontStretch, 'normal')} ${notDefault(font.fontStyle, 'normal')} ${font.fontWeight} ${font.fontSize}/${font.lineHeight} ${fontFamily(font, options)}`.trim()
+    return `${notDefault(font.fontStretch, 'normal')} ${notDefault(font.fontStyle, 'normal')} ${font.fontWeight} ${font.fontSize}px/${font.lineHeight}px ${fontFamily(font, options)}`.trim()
   }
 }
