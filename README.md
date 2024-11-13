@@ -1,6 +1,11 @@
+> [!WARNING] 
+> **This is just an example repo and not activly maintained!**  
+> Please refer to my [style dictionary utils](https://github.com/lukasoppermann/style-dictionary-utils) package for transformations, etc.
+> I am open to PRs.
+
 # Design Token Transformer
 
-This package is supposed to be used together with the [Design Tokens plugin for Figma](https://github.com/lukasoppermann/design-tokens).
+This is an example of how you can use github actions together with the [Design Tokens plugin for Figma](https://github.com/lukasoppermann/design-tokens).
 It transforms the exported design tokens using [Amazon style dictionary](https://amzn.github.io/style-dictionary/#/).
 
 ## Installation
